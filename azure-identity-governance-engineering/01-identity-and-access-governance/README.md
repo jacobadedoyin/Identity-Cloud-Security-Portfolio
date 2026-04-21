@@ -1,102 +1,170 @@
-# ☁️ Project 01: Azure Identity & Governance Automation
-**Enterprise-Scale Identity Lifecycle Management & Policy-Driven Cost Control**
+# ☁️ Project 01: Identity Lifecycle & Governance Automation  
+**Secure Identity Provisioning, Access Control, and Policy-Driven Governance**
 
-[![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
-[![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/en-us/powershell/azure/)
-[![JSON](https://img.shields.io/badge/JSON-%23000000.svg?style=for-the-badge&logo=json&logoColor=white)](https://www.json.org/)
-[![IaC](https://img.shields.io/badge/IaC-blueviolet?style=for-the-badge)](https://en.wikipedia.org/wiki/Infrastructure_as_code)
-[![FinOps](https://img.shields.io/badge/💲FinOps_-%2300ca53?style=for-the-badge)](https://www.finops.org/)
-
-## 📌 Project Overview
-This project demonstrates the engineering of a production-ready Azure environment using **Infrastructure as Code (IaC)**. By transitioning from manual "point-and-click" administration to **Automated Identity Provisioning** and **Governance Guardrails**, I established a foundation for secure scalability. The objective was to eliminate human error, ensure 100% environment reproducibility, and enforce strict financial accountability through architectural design.
+[![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![Identity](https://img.shields.io/badge/Identity-Entra_ID-black?style=for-the-badge)](https://learn.microsoft.com/)
+[![Automation](https://img.shields.io/badge/Automation-PowerShell-blue?style=for-the-badge)](https://learn.microsoft.com/en-us/powershell/azure/)
+[![Governance](https://img.shields.io/badge/Governance-Policy-green?style=for-the-badge)](https://learn.microsoft.com/en-us/azure/governance/)
 
 ---
 
-## 🛠️ Technical Stack & Tools
-| Category | Tools Used | Business Value |
+## 📌 Overview
+
+This project demonstrates the implementation of **automated identity lifecycle management and governance controls** within Microsoft Entra ID and Azure.
+
+The solution transitions from manual administration to **controlled, repeatable identity provisioning and policy-driven governance**, ensuring that access is consistent, auditable, and aligned to **least privilege principles**.
+
+The objective is to reduce identity-related risk while enabling **scalable and secure access management**.
+
+---
+
+## 🔐 IAM Context
+
+In enterprise environments, identity is the primary security boundary.  
+This project focuses on ensuring that:
+
+- Identities are provisioned in a **controlled and standardised manner**  
+- Access is assigned through **group-based RBAC models**, not direct user permissions  
+- Governance controls prevent misuse of access at the infrastructure layer  
+
+---
+
+## 🧠 Design Rationale
+
+The architecture is built around three core principles:
+
+- **Standardisation:** All identities are created within predefined security groups  
+- **Access Control:** Permissions are inherited via RBAC-aligned group membership  
+- **Governance Enforcement:** Policy controls restrict what authorised users can deploy  
+
+This approach moves from **ad-hoc identity management** to a **structured IAM model** combining identity, access, and governance.
+
+---
+
+## 🛠️ Technical Stack
+
+| Category | Tools Used | IAM / Security Relevance |
 | :--- | :--- | :--- |
-| **🔐 Identity Management** | Microsoft Entra ID | Centralised access control & identity security. |
-| **⚙️ Automation** | Azure PowerShell (Az Module) | Scalable, error-free administration and deployment. |
-| **🛡️ Governance** | Azure Policy (JSON) | Automated compliance & proactive cost prevention. |
+| **Identity** | Microsoft Entra ID | Centralised identity and access control |
+| **Access Control** | RBAC | Role-based permission enforcement |
+| **Automation** | Azure PowerShell (Az Module) | Repeatable identity provisioning |
+| **Governance** | Azure Policy (JSON) | Enforcement of organisational controls |
 
 ---
 
-## 🚀 Phase 1: Identity Lifecycle Architecture
-In an enterprise context, manual user creation is a significant bottleneck and a security risk. I developed the [`create-identities.ps1`](./scripts/create-identities.ps1) script to automate the onboarding of administrative personnel, ensuring a "Security-First" foundation.
+## 📌 Implementation
 
-### 1. ⚡ Programmatic Provisioning
-The script handles user creation and group nesting in a single **atomic operation**. This ensures that every administrator is instantiated within the correct security context (**IT-Admins**) with the appropriate RBAC permissions immediately applied, preventing "permission creep."
+### 1. Identity Lifecycle Automation
 
-<img src="./images/01-script-execution.png" width="700" alt="Script Execution">
+Manual user provisioning introduces risk through inconsistent permissions and unmanaged identities.  
+To address this, I developed [`create-identities.ps1`](./scripts/create-identities.ps1) to automate onboarding.
 
-> *Figure 1: PowerShell automation ensuring standardised object creation in Entra ID.*
+#### Key Features
+- Programmatic user creation  
+- Automatic group assignment (`IT-Admins`)  
+- Immediate RBAC alignment  
 
-### 2. ✅ Validation & Verification
-I utilised the CLI to perform automated verification checks, ensuring that **Object IDs** and **Principal Names** were mapped correctly without relying on visual portal checks, which do not scale in multi-tenant environments.
+![Script Execution](./images/01-script-execution.png)
 
-<img src="./images/02-cli-verification.png" width="700" alt="CLI Verification">
-
-> *Figure 2: CLI output verifying the successful mapping of User Principal Names (UPN) to the administrative group.*
-
-### 3. 🔄 Portal Synchronisation
-Visual verification within the Azure Portal confirms that the programmatic changes synchronised immediately across the global Entra ID infrastructure, ensuring the administrative group is ready for production use.
-
-<img src="./images/03-portal-group-members.png" width="700" alt="Portal Verification">
-
-> *Figure 3: Azure Portal view confirming group membership consistency.*
+> Automated provisioning ensures consistent identity creation within controlled access structures.
 
 ---
 
-## ⚖️ Phase 2:  FinOps (Governance)
-Unmanaged cloud spend is a major business risk. I implemented **Policy-as-Code** to transition the organisation from reactive cost monitoring to **proactive cost prevention**.
+### 2. Access Control Model (RBAC)
 
-### 💰 Compute Cost Control
-I authored a [custom JSON policy](./policies/Enforce-Cost-Optimised-VM-Sizes.json) to restrict Virtual Machine deployments exclusively to the **B-Series** SKU class.
+Access is not assigned directly to users.  
+Instead, users inherit permissions through group membership.
 
-* **📉 The Strategy:** B-Series VMs utilise a **CPU credit model** which banks "credits" during idle periods to "burst" to 100% performance when needed. This delivers high-performance testing at roughly **50% the cost** of standard (D-Series) VMs.
-* **🤖 The Deployment:** Automated via [`deploy-governance.ps1`](./scripts/deploy-governance.ps1) to provide a scalable and flexible framework for future governance updates.
+#### IAM Design Decisions
+- Prevents **privilege creep**  
+- Simplifies access management at scale  
+- Supports **least privilege enforcement**  
 
-<img src="./images/04-deploy-policy.png" width="700" alt="Deploy policy">
+![CLI Verification](./images/02-cli-verification.png)
 
-> **Figure 4:** *Flexible guardrail deployment via PowerShell.*
-
-### 🛑 The Result: Hard Governance
-By embedding this logic into the Resource Provider layer, I established a "Hard Guardrail." It is now technically impossible for any user—accidental or otherwise—to provision high-cost resources that exceed the allocated budget.
-
-<img src="./images/05-create-large-vm.png" width="700" alt="Policy block">
-
-> **Figure 5:** *The Azure Resource Manager (ARM) blocking an unauthorised, high-cost VM deployment at the validation stage.*
-
-To further validate the hardening of the environment, I attempted to bypass the UI and deploy a **D-Series** VM directly. The Azure Policy engine intercepted the request, providing a clear compliance violation error.
-
-<img src="./images/07-policy-denial.png" width="700" alt="Policy Denial Error">
-
-> **Figure 6:** *Detailed policy denial message confirming out-of-scope VM sizes are restricted.*
+> CLI validation ensures identity objects and group assignments are accurate and auditable.
 
 ---
 
-## 🧠 Key Takeaways for Business Stakeholders
-* **⏱️ Operational Excellence:** Reduced identity setup time from minutes to seconds while ensuring 0% manual configuration error.
-* **💸 Proactive Cost Avoidance:** Shifted from "monitoring" bills to "preventing" them via automated SKU restrictions, a core tenet of **FinOps**.
-* **🌍 Compliance at Scale:** Demonstrated that governance can be applied globally via code, ensuring the environment remains compliant as the organisation scales.
+### 3. Identity Validation & Synchronisation
+
+Provisioned identities were validated using CLI and portal checks to ensure:
+
+- Correct group membership  
+- Accurate mapping of user principal names  
+- Consistency across Entra ID  
+
+![Portal Verification](./images/03-portal-group-members.png)
 
 ---
 
-## 🔮 Future Roadmap: GitOps & CI/CD
-To advance from local execution to enterprise-grade automation, the next phase focuses on implementing a **GitOps** workflow.
+## ⚖️ Phase 2: Governance & Control Enforcement
 
-* **Single Source of Truth:** All infrastructure code maintained in GitHub.
-* **Future CI/CD Pipeline (GitHub Actions):**
-    * **Trigger:** Pushing updates to the `AZ104/01-Identity-and-Governance/policies/` folder.
-    * **Action:** Automatically running `deploy-governance.ps1` to apply governance changes to Azure.
-* **Quality Control:** Enforcing branch protection and Pull Request reviews to validate changes before they reach production.
-  
----
+To prevent misuse of access privileges, I implemented **policy-driven governance controls**.
 
-## 🧹 Post-Project Lifecycle Management
-In alignment with **Cloud Financial Management** best practices, I developed a decommissioning script to ensure clean environment hygiene and prevent "orphan" resources from incurring unnecessary costs.
+### Policy-as-Code Implementation
 
-* **🗑️ Script Reference:** [`cleanup-governance.ps1`](./scripts/cleanup-governance.ps1)
+A custom JSON policy was developed to restrict Virtual Machine deployments to **cost-optimised SKUs**.
+
+- Script: [`deploy-governance.ps1`](./scripts/deploy-governance.ps1)  
+- Policy: [`Enforce-Cost-Optimised-VM-Sizes.json`](./policies/Enforce-Cost-Optimised-VM-Sizes.json)
+
+![Policy Deployment](./images/04-deploy-policy.png)
 
 ---
-*Created by Jacob Adedoyin | Azure 104 Cloud Administration Portfolio*
+
+### Control Enforcement
+
+Attempts to deploy non-compliant resources are blocked at the **Azure Resource Manager (ARM)** layer.
+
+![Policy Block](./images/05-create-large-vm.png)
+
+![Policy Denial](./images/07-policy-denial.png)
+
+---
+
+### IAM Relevance
+
+- Prevents authorised users from deploying unauthorised resources  
+- Enforces organisational policy regardless of permissions  
+- Adds a **control layer beyond RBAC**  
+
+---
+
+## ⚖️ Design Considerations & Trade-offs
+
+- Automation improves consistency but requires script maintenance  
+- Group-based access improves scalability but requires governance discipline  
+- Policy enforcement improves security but can restrict operational flexibility  
+
+---
+
+## 🎯 Outcome
+
+This project demonstrates a structured approach to IAM, combining:
+
+- Automated identity lifecycle management  
+- Group-based access control (RBAC)  
+- Policy-driven governance enforcement  
+- Scalable and auditable identity operations  
+
+---
+
+## 🧠 Key IAM Outcomes
+
+- **Consistent Identity Provisioning:** Eliminates manual errors and unmanaged identities  
+- **Access Governance:** Ensures permissions are assigned through controlled structures  
+- **Policy Enforcement:** Prevents misuse of access privileges  
+- **Operational Scalability:** Enables repeatable, auditable identity processes  
+
+---
+
+## 🔮 Future Enhancements
+
+- Integration with CI/CD pipelines for governance deployment (GitOps model)  
+- Implementation of Privileged Identity Management (PIM)  
+- Conditional Access policy design and enforcement  
+
+---
+
+*Maintained by Jacob Adedoyin*
