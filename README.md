@@ -1,6 +1,6 @@
 # Identity Architecture Portfolio
 
-A professional portfolio demonstrating practical experience in **Identity and Access Management (IAM)**, with a focus on **enterprise identity, access governance, and secure authentication design**.
+Focused on designing and implementing secure identity solutions for **regulated environments**, with an emphasis on **access governance, authentication controls, and risk reduction**.
 
 ![Cloud](https://img.shields.io/badge/Cloud-Azure-blue)
 ![Identity](https://img.shields.io/badge/Identity-Entra_ID_|_Okta-black)
@@ -14,13 +14,13 @@ A professional portfolio demonstrating practical experience in **Identity and Ac
 
 ### Technical Implementation Lead: Enterprise MFA Implementation
 
-Led the implementation and operational integration of an enterprise **Multi-Factor Authentication (MFA)** solution, strengthening authentication controls and improving access governance across business systems.
+Led the implementation and operational integration of an enterprise **Multi-Factor Authentication (MFA)** solution, strengthening authentication controls, improving access governance, and reducing risk across business-critical systems.
 
 #### Key Contributions
-- Designed and configured authentication policies to support secure access for internal and external users  
-- Embedded MFA into identity lifecycle processes (JML), improving governance and reducing access risk  
-- Authored SOPs and self-service guidance, standardising identity-related support and reducing operational overhead  
-- Supported controlled rollout across business workflows, ensuring minimal disruption and alignment with security requirements  
+- Designed and implemented authentication policies to support secure access for internal and external users  
+- Embedded MFA into identity lifecycle processes (JML), strengthening governance and reducing access risk  
+- Authored SOPs and self-service guidance, standardising identity operations and reducing support overhead  
+- Supported controlled rollout across business systems, ensuring minimal disruption and alignment with security requirements  
 
 #### Core IAM Themes
 - Authentication engineering  
@@ -28,3 +28,26 @@ Led the implementation and operational integration of an enterprise **Multi-Fact
 - Access control and policy enforcement  
 - Operational standardisation  
 - Secure provisioning and deprovisioning  
+
+---
+
+## What This Portfolio Demonstrates
+
+- Practical experience delivering IAM solutions in enterprise environments  
+- Strong understanding of identity lifecycle, access governance, and authentication controls  
+- Ability to design secure access models aligned to least privilege and Zero Trust principles  
+- Experience supporting secure access to sensitive data within regulated environments  
+- Progression from operational IAM delivery to architecture-level thinking  
+
+---
+
+## Portfolio Overview
+
+### Enterprise IAM Project
+- [IAM Architecture for Financial Data Access Control](./iam-architecture-financial-data-access-control/)
+
+### Azure Identity, Security & Governance Foundations
+- [Azure Identity Security Foundations](./azure-identity-security-foundations/)
+
+### Azure Identity & Governance Engineering
+- [Azure Identity Governance Engineering](./azure-identity-governance-engineering/)
