@@ -5,18 +5,21 @@ az-login.json
 *.pem
 *.key
 .env
+local.settings.json
+
+# --- Azure CLI sensitive cache ---
+.azure/azureProfile.json
+.azure/accessTokens.json
 
 # --- Infrastructure as Code (IaC) ---
-# Ignore Bicep & ARM compiled binaries (keep your repo clean)
-*.arm.json
-azuredeploy.json
-main.json
-
-# Terraform (Future-proofing for AZ-104 labs)
+# Terraform (future-ready AZ-104 / enterprise IaC)
 .terraform/
 *.tfstate
 *.tfstate.backup
 .terraform.lock.hcl
+
+# --- ARM / Bicep outputs (only generated artifacts) ---
+*.arm.json
 
 # --- Editor & System Junk ---
 .vscode/
@@ -25,7 +28,7 @@ main.json
 Thumbs.db
 *.log
 
-# --- Python Basics (Only if you use simple scripts) ---
+# --- Python (if used for automation scripts) ---
 __pycache__/
 *.py[cod]
 .venv/
