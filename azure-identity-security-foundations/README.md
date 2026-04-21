@@ -18,13 +18,13 @@ The work aligns with principles from the **Azure Well-Architected Framework**, w
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ Project Overview
 
 | Project | Focus Area | Key Concepts | IAM / Security Relevance |
 | :--- | :--- | :--- | :--- |
-| **[Governance & Organisation](./01-Governance-and-Organisation)** | Cloud Governance | Resource Groups, Tagging, Locks | Enforces control, supports cost accountability, prevents misconfiguration |
-| **[IaaS Compute & Networking](./02-IaaS-Compute-and-Networking)** | Infrastructure Security | VMs, VNets, NSGs | Demonstrates network isolation and controlled access aligned to least privilege |
-| **[PaaS & Automation Deployment](./03-PaaS-Automation-Deployment)** | Secure Deployment | CI/CD, Web Apps | Shows controlled deployment pipelines and secure application delivery |
+| **[Identity Governance & Resource Control](./01-identity-governance-and-resource-control)** | Governance & Control | Tagging, Resource Groups, Locks | Enforces accountability, supports access governance, prevents unauthorised changes |
+| **[Secure Compute & Networking](./02-secure-compute-and-networking)** | Infrastructure Security | VMs, VNets, NSGs | Demonstrates network isolation and controlled access aligned to least privilege |
+| **[Secure Application Deployment](./03-secure-application-deployment)** | Deployment Security | CI/CD, Web Apps | Shows controlled deployment pipelines and secure application delivery |
 
 ---
 
@@ -32,17 +32,17 @@ The work aligns with principles from the **Azure Well-Architected Framework**, w
 
 ### Identity & Access
 - Use of **Microsoft Entra ID** for identity and access control  
-- Practical validation of **Role-Based Access Control (RBAC)**  
+- Practical application of **Role-Based Access Control (RBAC)**  
 - Alignment of resource access with **least privilege principles**
 
 ### Security Controls
 - Implementation of **Network Security Groups (NSGs)** to restrict inbound traffic  
-- Segmentation of resources to reduce attack surface  
+- Resource segmentation to reduce attack surface  
 - Application of **Zero Trust principles** at infrastructure level  
 
 ### Governance & Control
 - Use of **resource locks** to prevent accidental or unauthorised changes  
-- Implementation of **tagging strategies** to support cost allocation and organisational structure  
+- Implementation of **tagging strategies** to support cost allocation and ownership  
 - Alignment of governance controls with operational and financial accountability  
 
 ---
