@@ -7,14 +7,14 @@
 
 This project presents a practical Identity and Access Management (IAM) architecture designed to secure access to **sensitive financial data platforms** within a regulated environment.
 
-The design reflects real-world IAM challenges, including:
+The design reflects real-world IAM challenges including:
 
 - Managing internal and external identities  
-- Securing access to data and analytics platforms  
-- Enforcing strong authentication and access controls  
+- Securing access to financial and analytics platforms  
+- Enforcing strong authentication and access control  
 - Supporting auditability and regulatory compliance  
 
-The solution is built around **Microsoft Entra ID**, focusing on **identity lifecycle management, RBAC design, and access governance**.
+The solution is centred around **Microsoft Entra ID**, with a focus on **identity lifecycle management, RBAC design, and access governance**.
 
 ---
 
@@ -29,28 +29,35 @@ The solution is built around **Microsoft Entra ID**, focusing on **identity life
 
 ---
 
-## 🏗️ Architecture Design
+## 🏗️ Architecture Diagram
 
-### Core Components
-
-- **Identity Provider:** Microsoft Entra ID  
-- **Authentication Layer:** MFA and Conditional Access  
-- **Access Control Layer:** RBAC via security groups  
-- **Applications:** Financial data platforms (reporting, analytics, BI tools)  
-- **User Types:** Internal staff, external partners  
+![IAM Architecture](./images/architecture-diagram.png)
 
 ---
 
-### 🔄 Access Flow
+## 🔍 Architecture Explanation
 
-1. User authenticates via Microsoft Entra ID  
-2. Conditional Access policies evaluate:
+This architecture centralises identity through Microsoft Entra ID, enforcing authentication and access control across financial data platforms.
+
+- Users authenticate via Entra ID with MFA enforced  
+- Conditional Access evaluates risk (device, location, behaviour)  
+- Access is granted via group-based RBAC  
+- Applications are accessed through controlled identity flows  
+- All activity is logged for audit and compliance  
+
+---
+
+## 🔄 Access Flow
+
+1. User signs in via Microsoft Entra ID  
+2. Conditional Access evaluates:
    - Location  
    - Device compliance  
    - Risk signals  
 3. Multi-Factor Authentication is enforced  
-4. Access is granted via group-based RBAC  
-5. Activity is logged and monitored for audit  
+4. User is mapped to RBAC groups  
+5. Access to applications is granted based on role  
+6. Activity is logged and monitored  
 
 ---
 
@@ -66,36 +73,36 @@ Access is assigned through **security groups**, not directly to users.
 |------|-------------|
 | Data Analyst | Read access to financial datasets |
 | Finance Manager | Read/write access to reporting systems |
-| Platform Admin | Full access to data platforms |
-| External Partner | Restricted access to specific datasets |
+| Platform Admin | Full administrative access |
+| External Partner | Restricted dataset access |
 
 ---
 
 ### Key Principles
 
-- **Least Privilege:** Users receive only the access required  
-- **Separation of Duties:** Admin and user roles are segregated  
-- **Scalability:** Access managed through group membership  
-- **Consistency:** Standardised access assignment model  
+- **Least Privilege:** Minimal required access  
+- **Separation of Duties:** Admin vs user roles  
+- **Scalability:** Group-based access model  
+- **Consistency:** Standardised role assignment  
 
 ---
 
 ## 🔄 Identity Lifecycle (JML)
 
 ### Joiners
-- User accounts provisioned in Entra ID  
+- Provisioned in Entra ID  
 - Assigned to role-based groups  
-- Access granted automatically via RBAC  
+- Access granted automatically  
 
 ### Movers
-- Role or department changes trigger group updates  
-- Previous access removed  
-- New access assigned based on role  
+- Role changes trigger group updates  
+- Old access removed  
+- New access applied  
 
 ### Leavers
 - Immediate account disablement  
 - Removal from all access groups  
-- Access revoked across all systems  
+- Full access revocation  
 
 ---
 
@@ -103,16 +110,16 @@ Access is assigned through **security groups**, not directly to users.
 
 ### Multi-Factor Authentication (MFA)
 
-- Enforced for all users accessing financial systems  
-- Additional controls for privileged roles  
+- Enforced for all users accessing sensitive systems  
+- Additional controls for privileged users  
 
 ---
 
-### Conditional Access (Conceptual Design)
+### Conditional Access (Conceptual)
 
-- **Location-based restrictions:** Block access from high-risk regions  
-- **Device compliance:** Require managed or compliant devices  
-- **Risk-based policies:** Trigger additional verification when needed  
+- Restrict access by location  
+- Require compliant devices  
+- Enforce risk-based authentication  
 
 ---
 
@@ -121,7 +128,7 @@ Access is assigned through **security groups**, not directly to users.
 ### Access Reviews
 
 - Periodic validation of user permissions  
-- Removal of unnecessary or excessive access  
+- Removal of unnecessary access  
 - Focus on privileged and external users  
 
 ---
@@ -129,45 +136,61 @@ Access is assigned through **security groups**, not directly to users.
 ### Auditing & Monitoring
 
 - Logging of authentication and access events  
-- Monitoring for abnormal or high-risk behaviour  
-- Support for audit and compliance reporting  
+- Monitoring for suspicious activity  
+- Support for compliance and audit reporting  
 
 ---
 
-## 🧪 Use Case Scenario
+## 👤 Example Access Scenario
 
-This architecture models a financial organisation where users require secure access to **data platforms used for reporting and analytics**.
+**User:** Data Analyst (Internal)
 
-The design ensures:
+1. User signs into Entra ID  
+2. Conditional Access checks:
+   - Approved location  
+   - Compliant device  
+3. MFA is required  
+4. User is part of `Finance-Analysts` group  
+5. RBAC grants read access to reporting platform  
 
-- Secure access for both internal and external users  
-- Controlled exposure of financial data  
-- Strong governance over permissions and identity lifecycle  
+**Outcome:**  
+User can securely access financial reports but cannot modify data.
+
+---
+
+## 🔐 Example Conditional Access Policy
+
+- **Target:** Users accessing financial applications  
+- **Controls:**
+  - Require MFA  
+  - Require compliant device  
+  - Restrict access from non-approved locations  
+- **Exception:** Break-glass accounts (monitored)  
 
 ---
 
 ## 🧠 Key Design Principles
 
-- **Security First:** Zero Trust-aligned approach  
-- **Identity as Control Plane:** Access governed through identity  
-- **Least Privilege:** Minimal access by default  
-- **Auditability:** All access is traceable  
-- **Scalability:** Designed for enterprise environments  
+- Security-first, Zero Trust aligned  
+- Identity as the primary control plane  
+- Least privilege by default  
+- Full auditability of access  
+- Scalable enterprise design  
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Integration with **Privileged Identity Management (PIM)**  
-- Automated provisioning workflows (approval-based access)  
-- Advanced Conditional Access policies  
-- Integration with enterprise access governance tools  
+- Privileged Identity Management (PIM) integration  
+- Automated access request workflows  
+- Advanced risk-based Conditional Access  
+- Integration with access governance platforms  
 
 ---
 
 ## 🎯 Outcome
 
-This project demonstrates a structured IAM architecture that combines:
+This project demonstrates a structured IAM architecture combining:
 
 - Identity lifecycle management  
 - Secure authentication controls  
