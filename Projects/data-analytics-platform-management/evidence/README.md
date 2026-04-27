@@ -8,7 +8,7 @@ The project is mainly evidenced through recreated workflows, templates, and docu
 
 | Evidence | Purpose |
 |---|---|
-| `qlik-deploy-administer-qlik-sense.pdf` | Supports Qlik platform administration and management experience |
+| `qlik-deploy-administer-certificate.pdf` | Supports Qlik platform administration and management experience |
 
 ## Evidence Approach
 
