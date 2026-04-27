@@ -79,6 +79,17 @@ This project supports the wider identity and security architecture portfolio bec
 | Operational security | Supports secure administration of a sensitive platform |
 | User enablement | Helps users follow safer and more consistent transfer processes |
 
+## Evidence and Artefacts
+
+This project uses recreated and sanitised artefacts only. Real MOVEit screenshots, folder paths, file names, user records, external organisation names, transfer logs, IP addresses, internal URLs, and confidential operational details are not included.
+
+| Artefact | Location | Purpose |
+|---|---|---|
+| Secure transfer workflow | `diagrams/secure-transfer-workflow.md` | Shows the high-level secure transfer access and operational process |
+| Access request template | `templates/secure-transfer-access-request-template.md` | Demonstrates controlled handling of secure transfer access requests |
+| Migration checklist | `templates/secure-transfer-migration-checklist.md` | Demonstrates a structured approach to migrating transfer processes into MOVEit |
+| Permission matrix template | `templates/secure-transfer-permission-matrix-template.md` | Shows how secure transfer permissions can be tracked using dummy data |
+
 ## Example Secure Transfer Workflow
 
 ```text
