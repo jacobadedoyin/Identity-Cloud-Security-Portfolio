@@ -137,4 +137,29 @@ azure-cloud-engineering/
 │   └── emergency-access-governance/
 │       └── README.md
 └── certification-and-lab-evidence/
-    └── README.md
+    ├── README.md
+    ├── azure-identity-governance-engineering/
+    ├── azure-identity-security-foundations/
+    └── certificates/
+```
+
+---
+
+## Current Focus
+
+The current focus of this section is to evidence practical Azure administration and cloud security capability through both real-world aligned operational reviews and certification-aligned lab work.
+
+This includes:
+
+1. Documenting Microsoft Entra ID and Azure administration experience
+2. Building Azure security and governance lab evidence
+3. Capturing emergency access and operational review work
+4. Linking AZ-104 preparation to practical implementation examples
+
+---
+
+## Summary
+
+This section demonstrates Azure cloud engineering capability across identity, governance, administration, security, and operational control.
+
+It supports the wider portfolio by showing both practical workplace-aligned Azure experience and structured technical development through certification-aligned labs.
