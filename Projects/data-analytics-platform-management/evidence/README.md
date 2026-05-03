@@ -2,13 +2,20 @@
 
 This folder contains safe supporting evidence for the Data Analytics Platform Management project.
 
-The project is mainly evidenced through recreated workflows, templates, and documentation rather than internal operational records.
+The project is mainly evidenced through recreated workflows, templates, summaries, and supporting training evidence rather than internal operational records.
+
+---
 
 ## Evidence Included
 
 | Evidence | Purpose |
-|---|---|
+| :--- | :--- |
+| `access-governance-summary.md` | Summarises access governance activity across Qlik and Tableau, including access requests, JML support, and least privilege considerations |
+| `license-management-summary.md` | Summarises licence tracking, license recovery, and license visibility work across analytics platforms |
+| `platform-support-improvement-summary.md` | Summarises support process improvement, documentation, repeatable workflows, and operational consistency |
 | `qlik-deploy-administer-certificate.pdf` | Supports Qlik platform administration and management experience |
+
+---
 
 ## Evidence Approach
 
@@ -23,12 +30,21 @@ The main project evidence is represented through:
 - Joiner / mover / leaver checklist templates
 - Licence tracking templates
 - Recreated process examples
+- Sanitised evidence summaries
 - Supporting platform training evidence
+
+---
 
 ## Supporting Training Evidence
 
-The Qlik certificate supports the platform management experience shown in this project. It relates to Qlik Sense deployment and administration training completed in May 2024.
+The Qlik certificate supports the platform management experience shown in this project.
+
+It relates to Qlik Sense deployment and administration training completed in May 2024.
+
+---
 
 ## Confidentiality Note
 
-All evidence in this folder is included only where it is safe for public portfolio use. Internal operational documents and confidential platform details are excluded.
+All evidence in this folder is included only where it is safe for public portfolio use.
+
+Internal operational documents and confidential platform details are excluded.
