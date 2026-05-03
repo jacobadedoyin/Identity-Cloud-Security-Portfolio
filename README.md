@@ -19,15 +19,17 @@ It demonstrates capability across:
 
 | Area | Focus |
 | :--- | :--- |
-| `Projects/azure-cloud-engineering/` | Azure administration, Microsoft Entra ID, security foundations, certification evidence, and Azure lab work |
-| `Projects/data-analytics-platform-management/` | Qlik and Tableau platform management, JML workflows, access requests, licence tracking, and support processes |
-| `Projects/identity-security-architecture/` | IAM architecture, secure financial data access design, and MOVEit secure file transfer operations |
+| [Azure Cloud Engineering](./Projects/azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, security foundations, certification evidence, and Azure lab work |
+| [Data Analytics Platform Management](./Projects/data-analytics-platform-management/) | Qlik and Tableau platform management, JML workflows, access requests, licence tracking, and support processes |
+| [Identity Security Architecture](./Projects/identity-security-architecture/) | IAM architecture, secure financial data access design, and MOVEit secure file transfer operations |
 
 ---
 
 ## Azure Cloud Engineering
 
 This section demonstrates Azure cloud engineering capability across administration, identity, security foundations, and certification-aligned practical labs.
+
+[View Azure Cloud Engineering](./Projects/azure-cloud-engineering/)
 
 It covers:
 
@@ -38,17 +40,13 @@ It covers:
 - AZ-900 and SC-900 certification evidence
 - AZ-104-aligned lab and project evidence
 
-Folder:
-
-```text
-Projects/azure-cloud-engineering/
-```
-
 ---
 
 ## Data Analytics Platform Management
 
 This section demonstrates platform management responsibilities across Qlik and Tableau reporting environments.
+
+[View Data Analytics Platform Management](./Projects/data-analytics-platform-management/)
 
 It covers:
 
@@ -60,17 +58,13 @@ It covers:
 - Support process improvement
 - Sanitised evidence and reusable templates
 
-Folder:
-
-```text
-Projects/data-analytics-platform-management/
-```
-
 ---
 
 ## Identity Security Architecture
 
 This section demonstrates identity architecture, access control, secure data access, and secure platform operations.
+
+[View Identity Security Architecture](./Projects/identity-security-architecture/)
 
 It covers:
 
@@ -81,24 +75,18 @@ It covers:
 - Secure folder hierarchy and permission models
 - Controlled access to sensitive environments
 
-Folder:
-
-```text
-Projects/identity-security-architecture/
-```
-
 ---
 
 ## Core Skills Demonstrated
 
 | Skill Area | Evidence |
 | :--- | :--- |
-| Azure administration | Azure operations, security foundations, AZ-104-aligned labs |
-| Identity and access management | Microsoft Entra ID, RBAC, MFA, Conditional Access, JML, access governance |
-| Secure data access | Financial data access architecture, least privilege, access control models |
-| Analytics platform management | Qlik/Tableau access workflows, licence tracking, platform support |
-| Secure file transfer operations | MOVEit administration, migration, permissions, secure hierarchy design |
-| Governance and evidence | Access reviews, templates, workflow diagrams, sanitised evidence handling |
+| Azure administration | [Azure operations, security foundations, and AZ-104-aligned labs](./Projects/azure-cloud-engineering/) |
+| Identity and access management | [Microsoft Entra ID, RBAC, MFA, Conditional Access, JML, and access governance](./Projects/azure-cloud-engineering/) |
+| Secure data access | [Financial data access architecture, least privilege, and access control models](./Projects/identity-security-architecture/) |
+| Analytics platform management | [Qlik/Tableau access workflows, licence tracking, and platform support](./Projects/data-analytics-platform-management/) |
+| Secure file transfer operations | [MOVEit administration, migration, permissions, and secure hierarchy design](./Projects/identity-security-architecture/secure-file-transfer-platform-operations/) |
+| Governance and evidence | [Access reviews, templates, workflow diagrams, and sanitised evidence handling](./Projects/) |
 
 ---
 
