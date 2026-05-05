@@ -10,9 +10,16 @@ This portfolio combines certification-aligned learning, Azure lab evidence, and 
 
 | Section | Description |
 |---|---|
-| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, security foundations, certifications, and AZ-104-aligned labs |
-| [Data Analytics Platform Management](./data-analytics-platform-management/) | Qlik and Tableau access management, JML workflows, licence tracking, access reviews, and support processes |
-| [Identity Security Architecture](./identity-security-architecture/) | IAM architecture, secure data access, RBAC, least privilege design, MOVEit, and secure file transfer operations |
+| [Azure Cloud Engineering](./Projects/azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, security foundations, certifications, and AZ-104-aligned labs |
+| [Azure Administration and Operations](./Projects/azure-cloud-engineering/azure-administration-and-operations/) | Azure administration tasks, operations evidence, and practical cloud engineering work |
+| [Certification and Lab Evidence](./Projects/azure-cloud-engineering/certification-and-lab-evidence/) | AZ-900, SC-900, and AZ-104-aligned certification and lab evidence |
+| [Data Analytics Platform Management](./Projects/data-analytics-platform-management/) | Qlik and Tableau access management, JML workflows, licence tracking, and support processes |
+| [Data Platform Diagrams](./Projects/data-analytics-platform-management/diagrams/) | Sanitised diagrams showing platform access and support workflows |
+| [Data Platform Evidence](./Projects/data-analytics-platform-management/evidence/) | Sanitised evidence for access management, reviews, and operational support |
+| [Data Platform Templates](./Projects/data-analytics-platform-management/templates/) | Reusable access request, licence tracking, and support templates |
+| [Identity Security Architecture](./Projects/identity-security-architecture/) | IAM architecture, secure data access, RBAC, least privilege design, and secure transfer operations |
+| [IAM Architecture and Financial Data Access Control](./Projects/identity-security-architecture/iam-architecture-financial-data-access-control/) | Secure financial data access design, governance, and permission models |
+| [Secure File Transfer Platform Operations](./Projects/identity-security-architecture/secure-file-transfer-platform-operations/) | MOVEit operations, secure folder hierarchy, permissions, and transfer support |
 | [Core Skills Demonstrated](#core-skills-demonstrated) | Summary of the main technical and governance skills evidenced in this portfolio |
 | [Evidence Approach](#evidence-approach) | Explanation of how evidence is sanitised and kept public-safe |
 | [Purpose](#purpose) | Why this portfolio exists and what it is designed to demonstrate |
