@@ -16,7 +16,6 @@ All evidence is public-safe and sanitised. No confidential organisational data i
 | [Core Skills](#core-skills) | Main technical and governance skills demonstrated |
 | [Evidence Approach](#evidence-approach) | How evidence is sanitised and kept public-safe |
 | [Purpose](#purpose) | Why this portfolio exists |
-
 ---
 
 ## Overview
