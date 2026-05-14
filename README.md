@@ -1,6 +1,6 @@
 # Cloud Security and IAM Portfolio
 
-A professional portfolio showing practical work across cloud administration, identity and access management, Azure security, secure data access, analytics platform support, and secure file transfer operations.
+A professional portfolio showing practical work across cloud administration, identity and access management, Azure security, access governance, secure data access, analytics platform access support, and secure file transfer operations.
 
 All evidence is public-safe and sanitised. No confidential organisational data is included.
 
@@ -10,12 +10,10 @@ All evidence is public-safe and sanitised. No confidential organisational data i
 
 | Section | Description |
 |---|---|
-| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Entra ID, security foundations, and certification-aligned labs |
-| [Data Analytics Platform Management](./data-analytics-platform-management/) | Qlik and Tableau access management, licence tracking, JML workflows, and support evidence |
-| [Identity Security Architecture](./identity-security-architecture/) | IAM architecture, secure data access, RBAC, least privilege, and MOVEit operations |
-| [Core Skills](#core-skills) | Main technical and governance skills demonstrated |
-| [Evidence Approach](#evidence-approach) | How evidence is sanitised and kept public-safe |
-| [Purpose](#purpose) | Why this portfolio exists |
+| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, RBAC, security foundations, and certification-aligned cloud labs |
+| [Identity Security Architecture](./identity-security-architecture/) | IAM architecture, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
+| [Data Analytics Platform Management](./data-analytics-platform-management/) | Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and support evidence |
+
 ---
 
 ## Overview
@@ -26,9 +24,9 @@ This portfolio demonstrates practical capability across:
 - Microsoft Entra ID and access control
 - RBAC, MFA, Conditional Access, and least privilege
 - Access governance and joiner / mover / leaver processes
-- Qlik and Tableau platform support
-- MOVEit secure file transfer operations
 - Secure data access design
+- Secure file transfer operations
+- Qlik and Tableau platform support
 - Public-safe documentation, templates, diagrams, and lab evidence
 
 ---
@@ -37,9 +35,9 @@ This portfolio demonstrates practical capability across:
 
 | Area | Focus |
 |---|---|
-| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Entra ID, security foundations, certification evidence, and lab work |
+| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, security foundations, certification evidence, and lab work |
+| [Identity Security Architecture](./identity-security-architecture/) | IAM design, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
 | [Data Analytics Platform Management](./data-analytics-platform-management/) | Qlik and Tableau access workflows, licence tracking, access reviews, and support processes |
-| [Identity Security Architecture](./identity-security-architecture/) | IAM design, secure financial data access, RBAC, least privilege, and secure transfer operations |
 
 ---
 
@@ -51,19 +49,19 @@ Covers Azure administration, Microsoft Entra ID, RBAC, security foundations, and
 
 ---
 
+## Identity Security Architecture
+
+**[View Identity Security Architecture](./identity-security-architecture/)**
+
+Covers IAM architecture, secure data access, RBAC, least privilege design, secure file transfer operations, permissions, and secure folder structures.
+
+---
+
 ## Data Analytics Platform Management
 
 **[View Data Analytics Platform Management](./data-analytics-platform-management/)**
 
 Covers Qlik and Tableau access management, JML workflows, licence tracking, access reviews, support processes, templates, and sanitised evidence.
-
----
-
-## Identity Security Architecture
-
-**[View Identity Security Architecture](./identity-security-architecture/)**
-
-Covers IAM architecture, secure financial data access, RBAC, least privilege design, MOVEit operations, permissions, and secure folder structures.
 
 ---
 
@@ -73,9 +71,9 @@ Covers IAM architecture, secure financial data access, RBAC, least privilege des
 |---|---|
 | Azure administration | Azure operations, security foundations, and AZ-104-aligned labs |
 | Identity and access management | Entra ID, RBAC, MFA, Conditional Access, JML, and access governance |
-| Secure data access | Financial data access design, least privilege, and permission models |
+| Secure data access | Secure data access design, least privilege, and permission models |
+| Secure file transfer | Secure file transfer operations, permissions, folder structures, and migration support |
 | Analytics platform support | Qlik and Tableau access workflows, licence tracking, and access reviews |
-| Secure file transfer | MOVEit operations, permissions, folder structures, and migration support |
 | Governance and documentation | Access reviews, templates, diagrams, and sanitised evidence |
 | Security awareness | Confidentiality, least privilege, risk awareness, and safe documentation |
 
