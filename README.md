@@ -1,24 +1,22 @@
 # Cloud Security and IAM Portfolio
 
-A public-safe cloud security and IAM portfolio demonstrating practical ownership across Azure administration, secure data transfer platforms, analytics platform access, IAM, access governance, and secure data MFA technology
+A public-safe cloud security and IAM portfolio demonstrating practical ownership across Azure administration, secure data transfer platforms, analytics platform access, identity and access management, access governance, and MFA rollout/post-deployment support for secure data access.
 
-No confidential organisational data, client information, tenant details, internal URLs, secrets, or production records are included.
+> **Public-safe evidence only:** all content is sanitised and excludes confidential organisational data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
 ---
-
-## Portfolio Overview
 
 ![Cloud Security and IAM Portfolio Overview](assets/portfolio-overview.png)
 
 ---
 
-## Navigation
+## Portfolio Areas
 
-| Section | Focus |
+| Area | Evidence Focus |
 |---|---|
-| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | Azure administration, Microsoft Entra ID, RBAC, monitoring, security foundations, and cloud labs |
-| [Identity Security Architecture](Projects/identity-security-architecture) | IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations |
-| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | Qlik and Tableau access management, licence tracking, JML workflows, and access reviews |
+| ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)** | Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence |
+| 🏛️ **[Identity Security Architecture](Projects/identity-security-architecture)** | IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations |
+| 📊 **[Data Analytics Platform Management](Projects/data-analytics-platform-management)** | Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence |
 
 ---
 
