@@ -12,39 +12,26 @@ A public-safe cloud security and IAM portfolio demonstrating practical ownership
 
 ## Portfolio Areas
 
-| Area | Evidence Focus |
-|---|---|
-| ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)** | Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence |
-| 🏛️ **[Identity Security Architecture](Projects/identity-security-architecture)** | IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations |
-| 📊 **[Data Analytics Platform Management](Projects/data-analytics-platform-management)** | Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence |
+<table>
+  <tr>
+    <th align="left" width="280">Area</th>
+    <th align="left">Evidence Focus</th>
+  </tr>
+  <tr>
+    <td width="280" style="white-space: nowrap;">☁️ <strong><a href="Projects/azure-cloud-engineering">Azure Cloud Engineering</a></strong></td>
+    <td>Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence</td>
+  </tr>
+  <tr>
+    <td width="280" style="white-space: nowrap;">🏛️ <strong><a href="Projects/identity-security-architecture">Identity Security Architecture</a></strong></td>
+    <td>IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations</td>
+<tr>
+  <td width="300" style="white-space: nowrap;">📊 <strong><a href="Projects/data-analytics-platform-management">Analytics Platform Management</a></strong></td>
+  <td>Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence</td>
+</tr>
+</table>
 
 ---
 
-## Evidence Preview
-
-| Area | Preview |
-|---|---|
-| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | ![Azure evidence preview](assets/azure-preview.png) |
-| [Identity Security Architecture](Projects/identity-security-architecture) | ![IAM evidence preview](assets/iam-preview.png) |
-| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | ![Analytics platform evidence preview](assets/analytics-preview.png) |
-
----
-
-## Portfolio Areas
-
-### [Azure Cloud Engineering](Projects/azure-cloud-engineering)
-
-Practical Azure and Microsoft Entra ID evidence covering cloud administration, RBAC, monitoring, Azure Monitor, Log Analytics, security foundations, and certification-aligned learning.
-
-### [Identity Security Architecture](Projects/identity-security-architecture)
-
-IAM and secure access evidence covering identity architecture, least privilege, secure data access, permission models, access governance, and secure file transfer operations.
-
-### [Data Analytics Platform Management](Projects/data-analytics-platform-management)
-
-Platform support evidence covering Qlik and Tableau access management, licence tracking, access reviews, JML workflows, support processes, and sanitised documentation.
-
----
 
 ## Core Skills
 
