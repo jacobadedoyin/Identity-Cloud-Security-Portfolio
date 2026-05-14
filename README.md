@@ -14,20 +14,21 @@ A public-safe cloud security and IAM portfolio demonstrating practical ownership
 
 <table>
   <tr>
-    <th align="left" width="280">Area</th>
+    <th align="left" width="300">Area</th>
     <th align="left">Evidence Focus</th>
   </tr>
   <tr>
-    <td width="280" style="white-space: nowrap;">☁️ <strong><a href="Projects/azure-cloud-engineering">Azure Cloud Engineering</a></strong></td>
+    <td width="300" style="white-space: nowrap;">☁️ <strong><a href="Projects/azure-cloud-engineering">Azure Cloud Engineering</a></strong></td>
     <td>Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence</td>
   </tr>
   <tr>
-    <td width="280" style="white-space: nowrap;">🏛️ <strong><a href="Projects/identity-security-architecture">Identity Security Architecture</a></strong></td>
+    <td width="300" style="white-space: nowrap;">🏛️ <strong><a href="Projects/identity-security-architecture">Identity Security Architecture</a></strong></td>
     <td>IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations</td>
-<tr>
-  <td width="300" style="white-space: nowrap;">📊 <strong><a href="Projects/data-analytics-platform-management">Analytics Platform Management</a></strong></td>
-  <td>Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence</td>
-</tr>
+  </tr>
+  <tr>
+    <td width="300" style="white-space: nowrap;">📊 <strong><a href="Projects/data-analytics-platform-management">Analytics Platform Management</a></strong></td>
+    <td>Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence</td>
+  </tr>
 </table>
 
 ---
