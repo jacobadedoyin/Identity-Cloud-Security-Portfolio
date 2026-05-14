@@ -1,8 +1,8 @@
 # Cloud Security and IAM Portfolio
 
-A professional portfolio demonstrating practical experience across cloud administration, identity and access management, Azure security, access governance, secure data access, analytics platform access support, and secure file transfer operations.
+A public-safe portfolio demonstrating practical experience across Azure administration, cloud security, IAM, access governance, secure data access, analytics platform access, and secure file transfer operations.
 
-All evidence is public-safe and sanitised. No confidential organisational data, client information, tenant details, internal URLs, secrets, or production records are included.
+No confidential organisational data, client information, tenant details, internal URLs, secrets, or production records are included.
 
 ---
 
@@ -14,11 +14,11 @@ All evidence is public-safe and sanitised. No confidential organisational data, 
 
 ## Navigation
 
-| Section | Description |
+| Section | Focus |
 |---|---|
-| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | Azure administration, Microsoft Entra ID, RBAC, monitoring, security foundations, and certification-aligned cloud labs |
-| [Identity Security Architecture](Projects/identity-security-architecture) | IAM architecture, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
-| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and support evidence |
+| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | Azure administration, Microsoft Entra ID, RBAC, monitoring, security foundations, and cloud labs |
+| [Identity Security Architecture](Projects/identity-security-architecture) | IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations |
+| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | Qlik and Tableau access management, licence tracking, JML workflows, and access reviews |
 
 ---
 
@@ -32,73 +32,39 @@ All evidence is public-safe and sanitised. No confidential organisational data, 
 
 ---
 
-## Overview
-
-This portfolio demonstrates practical capability across:
-
-- Azure administration and cloud operations
-- Microsoft Entra ID and identity management
-- RBAC, MFA, Conditional Access, and least privilege
-- Access governance and joiner / mover / leaver processes
-- Secure data access design and permission models
-- Secure file transfer operations
-- Qlik and Tableau platform access support
-- Monitoring, documentation, and public-safe evidence capture
-
----
-
 ## Portfolio Areas
 
-| Area | Focus |
-|---|---|
-| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | Azure administration, Microsoft Entra ID, monitoring, security foundations, certification evidence, and lab work |
-| [Identity Security Architecture](Projects/identity-security-architecture) | IAM design, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
-| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | Qlik and Tableau access workflows, licence tracking, access reviews, JML processes, and support evidence |
+### [Azure Cloud Engineering](Projects/azure-cloud-engineering)
+
+Practical Azure and Microsoft Entra ID evidence covering cloud administration, RBAC, monitoring, Azure Monitor, Log Analytics, security foundations, and certification-aligned learning.
+
+### [Identity Security Architecture](Projects/identity-security-architecture)
+
+IAM and secure access evidence covering identity architecture, least privilege, secure data access, permission models, access governance, and secure file transfer operations.
+
+### [Data Analytics Platform Management](Projects/data-analytics-platform-management)
+
+Platform support evidence covering Qlik and Tableau access management, licence tracking, access reviews, JML workflows, support processes, and sanitised documentation.
 
 ---
 
-## Azure Cloud Engineering
-
-**[View Azure Cloud Engineering](Projects/azure-cloud-engineering)**
-
-Practical Azure and Microsoft Entra ID evidence covering cloud administration, RBAC, access control, monitoring, security foundations, Azure Monitor, Log Analytics, and AZ-900, SC-900, and AZ-104-aligned learning.
-
----
-
-## Identity Security Architecture
-
-**[View Identity Security Architecture](Projects/identity-security-architecture)**
-
-IAM and secure access evidence covering identity architecture, RBAC, least privilege, secure data access, access governance, permission models, secure folder structures, and secure file transfer operations.
-
----
-
-## Data Analytics Platform Management
-
-**[View Data Analytics Platform Management](Projects/data-analytics-platform-management)**
-
-Platform support evidence covering Qlik and Tableau access management, licence tracking, access reviews, JML workflows, support processes, templates, and sanitised operational documentation.
-
----
-
-## Core Skills Demonstrated
+## Core Skills
 
 | Skill Area | Evidence |
 |---|---|
-| Azure administration | Azure operations, resource management, monitoring, security foundations, and AZ-104-aligned labs |
-| Identity and access management | Microsoft Entra ID, RBAC, MFA, Conditional Access, JML processes, and access governance |
+| Azure administration | Resource management, monitoring, security foundations, and AZ-104-aligned labs |
+| IAM and access governance | Microsoft Entra ID, RBAC, MFA, Conditional Access, JML processes, and access reviews |
 | Cloud security | Secure configuration, least privilege, monitoring, governance controls, and operational review |
-| Secure data access | Permission models, secure data access design, folder structures, and access control documentation |
-| Secure file transfer | Secure file transfer operations, permissions, folder structures, and migration support |
+| Secure data access | Permission models, folder structures, access control, and secure data access design |
+| Secure file transfer | Secure transfer operations, permissions, folder structures, and migration support |
 | Analytics platform support | Qlik and Tableau access workflows, licence tracking, support evidence, and access reviews |
-| Governance and documentation | Sanitised templates, recreated diagrams, review evidence, summaries, and public-safe documentation |
-| Security awareness | Confidentiality, risk awareness, least privilege, auditability, and safe evidence handling |
+| Documentation and governance | Sanitised templates, recreated diagrams, review evidence, summaries, and public-safe documentation |
 
 ---
 
 ## Evidence Approach
 
-This portfolio uses public-safe evidence, including:
+This portfolio includes:
 
 - Sanitised templates
 - Recreated diagrams
@@ -109,24 +75,21 @@ This portfolio uses public-safe evidence, including:
 
 This repository does **not** include:
 
-- Real user data
-- Client information
-- Internal URLs
-- Tenant IDs
+- Real user or client data
+- Internal URLs or tenant details
 - Subscription IDs
 - Production secrets
 - Ticket references
 - Real sign-in logs
-- Internal SOPs
-- Confidential procedures
+- Internal SOPs or confidential procedures
 
 ---
 
 ## Purpose
 
-This portfolio is designed to evidence practical capability in cloud administration, identity and access management, access governance, secure data access, platform support, monitoring, and security-conscious documentation.
+This portfolio evidences practical capability in cloud administration, IAM, access governance, secure data access, platform support, monitoring, and security-conscious documentation.
 
-It is intended to show both workplace-aligned experience and hands-on technical learning in areas relevant to cloud security, IAM engineering, access governance, and regulated technology environments.
+It combines workplace-aligned experience with hands-on technical learning relevant to cloud security, IAM engineering, and regulated technology environments.
 
 ---
 
@@ -134,4 +97,4 @@ It is intended to show both workplace-aligned experience and hands-on technical 
 
 Maintained by **Jacob Adedoyin**.
 
-This repository is open source and intended as a professional cloud, identity, access management, and security portfolio.
+This repository is open source and intended as a professional cloud security, IAM, access governance, and secure operations portfolio.
