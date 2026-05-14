@@ -10,12 +10,6 @@ All evidence is public-safe and sanitised. No confidential organisational data, 
 
 ![Cloud Security and IAM Portfolio Overview](assets/portfolio-overview.png)
 
-This portfolio brings together workplace-aligned experience and hands-on lab evidence across three main areas:
-
-- **Azure Cloud Engineering** — Azure administration, Microsoft Entra ID, RBAC, security foundations, monitoring, and certification-aligned labs
-- **Identity Security Architecture** — IAM architecture, secure data access, least privilege, access governance, secure folder structures, and secure file transfer operations
-- **Data Analytics Platform Management** — Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and support evidence
-
 ---
 
 ## Navigation
