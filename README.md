@@ -1,6 +1,6 @@
 # Cloud Security and IAM Portfolio
 
-A public-safe portfolio demonstrating practical experience across Azure administration, cloud security, IAM, access governance, secure data access, analytics platform access, and secure file transfer operations.
+A public-safe cloud security and IAM portfolio demonstrating practical ownership across Azure administration, secure data transfer platforms, analytics platform access, IAM, access governance, and secure data MFA technology
 
 No confidential organisational data, client information, tenant details, internal URLs, secrets, or production records are included.
 
