@@ -32,49 +32,39 @@ A public-safe cloud security and IAM portfolio demonstrating practical ownership
 
 ---
 
-
 ## Core Skills
 
-| Skill Area | Evidence |
-|---|---|
-| Azure administration | Resource management, monitoring, security foundations, and AZ-104-aligned labs |
-| IAM and access governance | Microsoft Entra ID, RBAC, MFA, Conditional Access, JML processes, and access reviews |
-| Cloud security | Secure configuration, least privilege, monitoring, governance controls, and operational review |
-| Secure data access | Permission models, folder structures, access control, and secure data access design |
-| Secure file transfer | Secure transfer operations, permissions, folder structures, and migration support |
-| Analytics platform support | Qlik and Tableau access workflows, licence tracking, support evidence, and access reviews |
-| Documentation and governance | Sanitised templates, recreated diagrams, review evidence, summaries, and public-safe documentation |
+![Core Skills](assets/core-skills.png)
 
 ---
 
 ## Evidence Approach
 
-This portfolio includes:
+This portfolio uses public-safe evidence to demonstrate practical cloud security, IAM, access governance, and secure operations capability.
 
-- Sanitised templates
-- Recreated diagrams
-- Lab screenshots
-- Public-safe certificates
-- Workflow documentation
-- Work-based summaries with confidential details removed
+Evidence may include:
+
+- Sanitised templates and workflow documentation
+- Recreated diagrams and access models
+- Lab screenshots and certification-aligned evidence
+- Public-safe summaries of workplace-aligned activities
+- Review notes with confidential details removed
 
 This repository does **not** include:
 
-- Real user or client data
-- Internal URLs or tenant details
-- Subscription IDs
-- Production secrets
-- Ticket references
-- Real sign-in logs
-- Internal SOPs or confidential procedures
+- Real user, client, or organisational data
+- Internal URLs, tenant details, or subscription IDs
+- Production secrets, keys, tokens, or credentials
+- Ticket references, real sign-in logs, or production records
+- Internal SOPs or confidential operational procedures
 
 ---
 
 ## Purpose
 
-This portfolio evidences practical capability in cloud administration, IAM, access governance, secure data access, platform support, monitoring, and security-conscious documentation.
+This portfolio is designed to evidence practical capability across cloud administration, IAM, access governance, secure data access, platform support, monitoring, and security-conscious documentation.
 
-It combines workplace-aligned experience with hands-on technical learning relevant to cloud security, IAM engineering, and regulated technology environments.
+It combines workplace-aligned experience with hands-on technical learning relevant to cloud security, IAM engineering, access governance, and regulated technology environments.
 
 ---
 
@@ -82,4 +72,4 @@ It combines workplace-aligned experience with hands-on technical learning releva
 
 Maintained by **Jacob Adedoyin**.
 
-This repository is open source and intended as a professional cloud security, IAM, access governance, and secure operations portfolio.
+This repository is maintained as a professional portfolio for cloud security, IAM, access governance, and secure operations evidence.
