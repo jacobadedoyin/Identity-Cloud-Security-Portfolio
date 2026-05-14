@@ -10,9 +10,9 @@ All evidence is public-safe and sanitised. No confidential organisational data i
 
 | Section | Description |
 |---|---|
-| [Azure Cloud Engineering](./azure-cloud-engineering/) | Azure administration, Microsoft Entra ID, RBAC, security foundations, and certification-aligned cloud labs |
-| [Identity Security Architecture](./identity-security-architecture/) | IAM architecture, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
-| [Data Analytics Platform Management](./data-analytics-platform-management/) | Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and support evidence |
+| [Azure Cloud Engineering](Projects/azure-cloud-engineering) | Azure administration, Microsoft Entra ID, RBAC, security foundations, and certification-aligned cloud labs |
+| [Identity Security Architecture](Projects/identity-security-architecture) | IAM architecture, secure data access, RBAC, least privilege, secure folder structures, and secure file transfer operations |
+| [Data Analytics Platform Management](Projects/data-analytics-platform-management) | Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and support evidence |
 
 ---
 
