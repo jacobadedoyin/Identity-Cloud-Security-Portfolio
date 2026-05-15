@@ -1,81 +1,64 @@
 # Data Analytics Platform Management
 
+<img src="assets/data_analytics_platform_overview.png" alt="Data Analytics Platform Management overview" width="100%">
+
 ## Overview
 
-This project demonstrates data analytics platform management responsibilities across Qlik and Tableau reporting environments.
+This project demonstrates practical **data analytics platform management** across **Qlik** and **Tableau**, with a focus on user access, licence management, access reviews, support processes, and operational documentation.
 
-The work focused on improving how analytics platform access, user lifecycle activity, licence usage, access reviews, support processes, and operational documentation were managed. The aim was to make platform administration more consistent, repeatable, easier to support, and easier to evidence.
+The work improved how analytics platform administration was managed by making access processes more consistent, repeatable, supportable, and easier to evidence.
+
+This project is relevant to **Identity and Access Management (IAM)** because it involved managing user access lifecycle activity across application-level analytics platforms, including joiners, movers, leavers, licence clean-up, and access review preparation.
+
+---
 
 ## Platforms Covered
 
-- Qlik
-- Tableau
+| Platform | Focus |
+|---|---|
+| Qlik | Platform administration, user access support, licence visibility, and support documentation |
+| Tableau | User access management, licence tracking, stakeholder validation, and lifecycle support |
+
+---
 
 ## Project Context
 
-This work sat within application-level identity and access management because it involved managing the user access lifecycle across analytics platforms.
-
-The work covered:
+The work focused on improving access and administration processes across analytics platforms used for reporting and data analysis.
 
 | Area | Description |
 |---|---|
-| Joiners | Setting up new users, assigning appropriate platform access, and following a repeatable onboarding process |
+| Joiners | Setting up new users and assigning appropriate platform access |
 | Movers | Updating access when users changed role, team, reporting requirement, or access need |
 | Leavers | Supporting user removal, licence clean-up, and offboarding to reduce stale access risk |
-| Licence Management | Tracking licence allocation, visibility, recovery, and review activity |
-| Access Reviews | Defining review requirements and using matrices to help stakeholders validate access |
+| Licence Management | Tracking licence allocation, availability, review status, and recovery activity |
+| Access Reviews | Defining review requirements and using matrices to support stakeholder validation |
 | Platform Support | Improving support guidance and repeatable administration processes |
 
 Although this was not Azure-native IAM, it supported access governance by making analytics platform access management more controlled, documented, and repeatable.
 
-## My Role
+---
 
-I owned day-to-day platform management activity across Qlik and Tableau.
+## JML Lifecycle Management
 
-This included:
+<img src="assets/jml_lifecycle_management_overview.png" alt="Joiner mover leaver lifecycle management overview" width="100%">
 
-- Managing user access
-- Supporting joiner, mover, and leaver activity
-- Tracking licences
-- Handling access requests
-- Improving platform administration workflows
-- Creating lifecycle process documentation
-- Creating access review requirements
-- Creating access review matrices for support teams and stakeholders
-- Creating support guidance and process documentation
-- Reducing reliance on informal process knowledge
+A key part of this work was improving the management of platform access across the **joiner, mover, and leaver lifecycle**.
 
-## Areas Covered
+| Lifecycle Stage | Work Completed | Control Benefit |
+|---|---|---|
+| Joiners | Supported new user setup and access assignment | Improved onboarding consistency |
+| Movers | Updated access when roles, teams, or reporting needs changed | Helped keep access aligned to business need |
+| Leavers | Supported user removal and licence recovery | Reduced stale access and unnecessary licence usage |
 
-| Area | Work Completed |
-|---|---|
-| Platform operations | Supported day-to-day administration across analytics platforms |
-| Access management | Managed access requests and platform user changes |
-| JML lifecycle support | Created lifecycle workflows for onboarding, access changes, and offboarding |
-| Access review support | Created review requirements and matrices to help validate access needs |
-| Licence management | Improved licence tracking, visibility, review, and recovery |
-| Support process improvement | Made common platform tasks easier for support teams to follow |
-| Documentation | Created reusable guidance, workflows, matrices, and templates |
-| Access governance | Reduced stale access risk and improved process consistency |
+This helped reduce reliance on informal process knowledge and made platform access activity easier to follow, repeat, and evidence.
 
-## Key Improvements
-
-This work improved analytics platform management by introducing clearer processes for:
-
-- User onboarding
-- Access changes
-- User removal
-- Licence recovery
-- Access request handling
-- Access review preparation
-- Stakeholder access validation
-- Platform support guidance
-- Repeatable administration tasks
-- Documented operating processes
+---
 
 ## Governance and Control Improvements
 
-The project improved control over analytics platform access by making lifecycle and review activity more structured.
+<img src="assets/governance_and_control_enhancements_dashboard.png" alt="Governance and control improvements dashboard" width="100%">
+
+The project improved control over analytics platform access by making lifecycle, review, and support activity more structured.
 
 | Control Area | Improvement |
 |---|---|
@@ -88,22 +71,13 @@ The project improved control over analytics platform access by making lifecycle 
 | Support consistency | Created guidance to reduce ambiguity for support teams |
 | Evidence handling | Used sanitised templates and diagrams instead of confidential operational records |
 
-## Evidence Pack
+---
 
-This project uses recreated and sanitised evidence only. Internal operational documents, internal access review documents, access matrices, and real platform screenshots are not included.
+## Access Request Workflow
 
-Access review requirements and stakeholder matrices are represented through sanitised workflows, checklists, and licence tracking templates rather than internal documents.
+<img src="assets/access_request_workflow_and_benefits_overview.png" alt="Access request workflow and benefits overview" width="100%">
 
-| Evidence Item | Location | Purpose |
-|---|---|---|
-| JML workflow diagram | `diagrams/jml-workflow.md` | Shows the high-level joiner, mover, and leaver access process |
-| Access request template | `templates/access-request-template.md` | Demonstrates controlled access request handling |
-| JML checklist template | `templates/jml-checklist-template.md` | Shows a repeatable structure for onboarding, access changes, offboarding, and review checks |
-| Licence tracker template | `templates/licence-tracker-template.md` | Demonstrates how licence allocation, review, and recovery can be tracked |
-| Evidence README | `evidence/README.md` | Explains the evidence approach and supporting evidence included |
-| Qlik platform training certificate | `evidence/qlik-deploy-administer-certificate.pdf` | Supports Qlik platform administration and management experience |
-
-## Example JML Workflow
+A repeatable access request workflow was used to make platform administration more consistent and easier to evidence.
 
 ```text
 Access request received
@@ -121,4 +95,3 @@ Update licence tracking
 Confirm completion
         ↓
 Record evidence / update support notes
-```
