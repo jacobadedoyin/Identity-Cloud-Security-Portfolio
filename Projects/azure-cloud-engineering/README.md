@@ -24,23 +24,19 @@ The focus is on professional, workplace-aligned delivery rather than generic lab
     <th align="left" style="background-color:#f2f4f7;">Engineering Capability Demonstrated</th>
   </tr>
   <tr>
-    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">⚙️ <strong><a href="bicep-infrastructure-and-alerting">Bicep Infrastructure and Alerting</a></strong></td>
-    <td align="left">Bicep · infrastructure as code · VM monitoring alerts · Action Groups · heartbeat detection · CPU threshold alerting · operational response readiness</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">⚙️ <strong><a href="infrastructure-as-code-and-cloud-governance">Infrastructure as Code and Cloud Governance</a></strong></td>
+    <td align="left">Bicep · Terraform · repeatable deployment · naming and tagging standards · network-aware resource design · alert rule configuration · reusable governance patterns · change-ready cloud operations</td>
   </tr>
   <tr>
-    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🧱 <strong><a href="terraform-governance-and-standards">Terraform Governance and Standards</a></strong></td>
-    <td align="left">Terraform IaC · resource standards · naming and tagging strategy · alert rule configuration · reusable governance patterns · repeatable cloud operations</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">📊 <strong><a href="monitoring-operations-and-service-visibility">Monitoring, Operations and Service Visibility</a></strong></td>
+    <td align="left">Azure Monitor · Log Analytics · Azure Monitor Agent · Data Collection Rules · KQL · Workbooks · VM estate reporting · heartbeat and performance visibility · operational troubleshooting · service review evidence</td>
   </tr>
   <tr>
-    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">📊 <strong><a href="monitoring-log-analytics-and-kql">Monitoring, Log Analytics and KQL</a></strong></td>
-    <td align="left">Azure Monitor · Log Analytics · Azure Monitor Agent · Data Collection Rules · Data Collection Endpoints · KQL · Workbooks · estate-level reporting</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🔐 <strong><a href="identity-and-emergency-access-governance">Identity and Emergency Access Governance</a></strong></td>
+    <td align="left">Microsoft Entra ID · emergency access governance · break-glass controls · Conditional Access review · privileged access resilience · sign-in monitoring logic · identity risk documentation</td>
   </tr>
   <tr>
-    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🔐 <strong><a href="identity-emergency-access-governance">Identity and Emergency Access Governance</a></strong></td>
-    <td align="left">Microsoft Entra ID · emergency access governance · break-glass controls · Conditional Access review · privileged access resilience · sign-in monitoring logic</td>
-  </tr>
-  <tr>
-    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🎓 <strong><a href="certification-and-lab-evidence">Certification and Lab Evidence</a></strong></td>
-    <td align="left">AZ-104 preparation · administration labs · identity · compute · storage · networking · monitoring · governance validation</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🛡️ <strong><a href="cloud-security-governance-and-compliance">Cloud Security Governance and Compliance</a></strong></td>
+    <td align="left">Defender for Cloud awareness · secure configuration review · Azure governance controls · policy and compliance evidence · remediation tracking · risk and exception handling · audit-ready documentation</td>
   </tr>
 </table>
