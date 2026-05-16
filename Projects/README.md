@@ -1,4 +1,4 @@
-# Technical Implementation Projects
+# Portfolio Project Areas
 
 <p>
   <strong><a href="../README.md">↩️ Back to Main Portfolio</a></strong>
@@ -8,7 +8,7 @@
 
 ## Project Index
 
-A concise index of the main portfolio areas and the evidence demonstrated in each section.
+A concise view of the main portfolio areas and the evidence each section demonstrates.
 
 <table>
   <tr>
@@ -20,7 +20,7 @@ A concise index of the main portfolio areas and the evidence demonstrated in eac
       ☁️ <strong><a href="azure-cloud-engineering">Azure&nbsp;Cloud&nbsp;Engineering</a></strong>
     </td>
     <td>
-      Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence.
+      Azure administration, infrastructure as code, monitoring, Entra ID, cloud security governance, and operational evidence.
     </td>
   </tr>
   <tr>
@@ -28,7 +28,7 @@ A concise index of the main portfolio areas and the evidence demonstrated in eac
       🏛️ <strong><a href="enterprise-security-architecture">Enterprise&nbsp;Security&nbsp;Architecture</a></strong>
     </td>
     <td>
-      Identity architecture, secure access design, least privilege, Conditional Access, access governance, and control alignment.
+      Identity architecture, secure access design, Conditional Access, least privilege, access governance, and control alignment.
     </td>
   </tr>
   <tr>
@@ -36,7 +36,7 @@ A concise index of the main portfolio areas and the evidence demonstrated in eac
       📊 <strong><a href="business-intelligence-platform-management">Business&nbsp;Intelligence&nbsp;Platform&nbsp;Management</a></strong>
     </td>
     <td>
-      Qlik/Tableau administration, access security, JML lifecycle controls, licence governance, and cost management.
+      Qlik and Tableau access governance, JML lifecycle controls, licence management, stakeholder validation, and support documentation.
     </td>
   </tr>
 </table>
