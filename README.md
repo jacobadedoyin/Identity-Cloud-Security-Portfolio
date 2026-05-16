@@ -6,29 +6,25 @@
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
 ---
-## 🧭 Portfolio Navigation
-<p>
-  &nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="Projects">📁 Explore Portfolio Projects →</a></strong>
-</p>
-<table>
-  <tr>
-    <td width="360">☁️ <a href="Projects/azure-cloud-engineering"><strong>Azure&nbsp;Cloud&nbsp;Engineering</strong></a></td>
-    <td>Azure governance · Entra ID · RBAC<br>KQL · Terraform · Bicep · Monitoring</td>
-  </tr>
-  <tr>
-    <td width="360">🏛️ <a href="Projects/identity-security-architecture"><strong>Identity&nbsp;Security&nbsp;Architecture</strong></a></td>
-    <td>Financial IAM · MFA · Least privilege<br>Secure transfer · Access governance · Documentation</td>
-  </tr>
-  <tr>
-    <td width="360">📊 <a href="Projects/data-analytics-platform-management"><strong>Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</strong></a></td>
-    <td>Qlik · Tableau · JML workflows<br>Licence tracking · Access reviews · Reporting</td>
-  </tr>
-</table>
+## Portfolio Purpose
 
+This portfolio demonstrates workplace-aligned capability across cloud engineering, identity and access management, access governance, secure data access, monitoring, automation, and regulated cloud security operations.
+
+---
+## 🧭 Portfolio Navigation
+
+☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)**  
+Azure governance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
+
+🏛️ **[Identity Security Architecture](Projects/identity-security-architecture)**  
+Financial IAM · MFA · Least privilege · Secure transfer · Access governance · Documentation
+
+📊 **[Data Analytics Platform Management](Projects/data-analytics-platform-management)**  
+Qlik · Tableau · JML workflows · Licence tracking · Access reviews · Reporting
 
 ---
 
-## Technical Skills
+## Technical Skills Demonstrated
 
 <p align="center">
   <img src="assets/portfolio/technical-skills.png" alt="Technical Skills overview" width="900">
@@ -43,12 +39,6 @@
 </p>
 
 ---
-
-## Purpose
-
-This portfolio evidences capability across cloud engineering, IAM, access governance, secure data access, monitoring, automation, and security-conscious documentation.
-
-It combines workplace-aligned delivery evidence with technical projects relevant to Azure IAM engineering, cloud security operations, access governance, and regulated technology environments.
 
 ---
 <p align="center">
