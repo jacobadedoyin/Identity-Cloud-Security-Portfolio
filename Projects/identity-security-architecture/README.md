@@ -12,27 +12,12 @@
 | 📁 **[Secure File Transfer Platform Operations](./secure-file-transfer-platform-operations/)** | Secure file transfer access, folder permissions, platform access review, operational checks, and public-safe documentation. |
 ---
 
-## Key Capabilities Demonstrated
 
-- IAM architecture thinking
-- Access governance
-- Least-privilege design
-- RBAC and permission modelling
-- Secure data access control
-- MFA rollout and operational support
-- Secure file transfer operations
-- Platform access review
-- User access troubleshooting
-- Risk-aware documentation
-- Public-safe evidence handling
 
----
 
-## Security and IAM Relevance
 
-This section links IAM design with practical access control and secure operations.
 
-The evidence shows how access can be structured, reviewed, supported, and documented to reduce risk, support least privilege, and protect sensitive data.
+
 
 ---
 
