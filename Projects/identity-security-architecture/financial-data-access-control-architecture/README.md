@@ -1,4 +1,4 @@
-# Financial Services Access Governance Architecture
+# 🏦 Financial Services Access Governance Architecture
 
 <p>
   <strong><a href="../README.md">← Back to Identity Security Architecture</a></strong>
@@ -6,9 +6,9 @@
 
 ## Overview
 
-This project presents a public-safe access governance architecture for sensitive financial services data.
+This project presents a public-safe access governance architecture for sensitive financial services data platforms.
 
-Financial platforms require stronger access control because permissions affect confidentiality, auditability, segregation of duties, reporting integrity, and trust in business-critical data. The design uses Microsoft Entra ID as the central identity layer, supported by MFA, Conditional Access, RBAC, least privilege, access reviews, and audit logging.
+Financial services environments require strong identity controls because access affects confidentiality, auditability, segregation of duties, reporting integrity, and trust in business-critical data. The design uses Microsoft Entra ID as the central identity layer, supported by MFA, Conditional Access, RBAC, least privilege, access reviews, and audit logging.
 
 <p align="center">
   <img src="../../../assets/identity-security-architecture/financial-services-access-governance-architecture.png" alt="Financial Services Access Governance Architecture" width="900">
@@ -16,32 +16,12 @@ Financial platforms require stronger access control because permissions affect c
 
 ---
 
-## Architecture Focus
+## Governance Design
 
-- Microsoft Entra ID as the central identity control layer
-- MFA and Conditional Access for sensitive access decisions
-- Group-based RBAC aligned to business roles
-- Least privilege and segregation of duties
-- Joiner, mover, and leaver access lifecycle controls
-- Access reviews, audit logging, and monitoring
+The design focuses on how identity, access control, monitoring, and governance processes work together to reduce access risk and support audit-ready operations.
+
+<p align="center">
+  <img src="../../../assets/identity-security-architecture/financial-services-access-governance-design.png" alt="Financial Services Access Governance Design" width="900">
+</p>
 
 ---
-
-## Access Flow
-
-```text
-User signs in
-        ↓
-Microsoft Entra ID verifies identity
-        ↓
-Conditional Access evaluates risk and context
-        ↓
-MFA is required where needed
-        ↓
-Group membership is checked
-        ↓
-RBAC role defines permitted access
-        ↓
-Access is granted or denied
-        ↓
-Activity is logged for audit and review
