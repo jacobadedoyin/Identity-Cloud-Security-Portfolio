@@ -1,8 +1,10 @@
 # Cloud Security and IAM Portfolio
-
-A public-safe technical portfolio demonstrating practical capability across Azure cloud engineering, identity and access management, access governance, secure data transfer, analytics platform access, monitoring, automation, and infrastructure-as-code.
+<p align="left">
+  <img src="assets/portfolio/iam-badge.svg" alt="Cloud Security and IAM Portfolio Focus Areas" width="940">
+</p>
 
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
+
 
 <p align="center">
   <img src="assets/portfolio/technical-portfolio-overview.png" alt="Technical Portfolio Overview" width="900">
