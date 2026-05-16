@@ -1,6 +1,10 @@
 # 📁 Secure File Transfer Platform Operations
 
-[← Back to Identity Security Architecture](../README.md)
+<p align="left">
+  📁 <a href="../../README.md"><strong>Projects Index</strong></a>
+  
+  ↩️ <a href="../README.md"><strong>Back to Enterprise Security Architecture</strong></a><br>
+</p>
 
 ## Overview
 
