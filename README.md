@@ -1,6 +1,6 @@
 # Cloud Security and IAM Portfolio
 
-A public-safe technical portfolio showcasing hands-on experience across Azure administration, IAM, access governance, secure file transfer operations, analytics platform access, and MFA deployment support.
+A public-safe technical portfolio demonstrating practical capability across Azure cloud engineering, identity and access management, access governance, secure data transfer, analytics platform access, monitoring, automation, and infrastructure-as-code.
 
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
@@ -19,15 +19,15 @@ A public-safe technical portfolio showcasing hands-on experience across Azure ad
   </tr>
   <tr>
     <td width="360" style="white-space: nowrap;">☁️ <strong><a href="Projects/azure-cloud-engineering">Azure&nbsp;Cloud&nbsp;Engineering</a></strong></td>
-    <td>Azure administration, Entra ID, RBAC, monitoring, security foundations, automation, IaC, and cloud lab evidence.</td>
+    <td>Azure administration, Entra ID, RBAC, governance controls, monitoring, automation, infrastructure-as-code, and cloud security foundations.</td>
   </tr>
   <tr>
     <td width="360" style="white-space: nowrap;">🏛️ <strong><a href="Projects/identity-security-architecture">Identity&nbsp;Security&nbsp;Architecture</a></strong></td>
-    <td>IAM architecture, financial data access control, MFA deployment operations, least privilege, access governance, and secure file transfer operations.</td>
+    <td>IAM architecture, financial data access control, MFA deployment operations, least-privilege design, access governance, and secure file transfer controls.</td>
   </tr>
   <tr>
     <td width="360" style="white-space: nowrap;">📊 <strong><a href="Projects/data-analytics-platform-management">Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</a></strong></td>
-    <td>Qlik and Tableau access management, licence tracking, JML workflows, entitlement governance, and access review evidence.</td>
+    <td>Qlik and Tableau access governance, licence and entitlement tracking, JML workflows, access review evidence, and operational control documentation.</td>
   </tr>
 </table>
 
@@ -51,9 +51,9 @@ A public-safe technical portfolio showcasing hands-on experience across Azure ad
 
 ## Purpose
 
-This portfolio is designed to evidence practical capability across cloud administration, IAM, access governance, secure data access, platform support, monitoring, automation, and security-conscious documentation.
+This portfolio evidences capability across cloud engineering, IAM, access governance, secure data access, monitoring, automation, and security-conscious documentation.
 
-It combines workplace-aligned experience with hands-on technical learning relevant to cloud security, IAM engineering, access governance, and regulated technology environments.
+It combines workplace-aligned delivery evidence with technical projects relevant to Azure IAM engineering, cloud security operations, access governance, and regulated technology environments.
 
 ---
 
