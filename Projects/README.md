@@ -1,4 +1,6 @@
-# Portfolio Overview
+# Cloud Security and IAM Portfolio Projects
+
+[← Back to Cloud Security and IAM Portfolio](../../../README.md)
 
 <p align="center">
   <img src="../assets/portfolio/projects-overview.png" alt="Cloud Security and IAM portfolio overview" width="900">
@@ -6,12 +8,14 @@
 
 ---
 
-## Portfolio Navigation
+## Project Areas
+
+A concise view of the main portfolio sections and the evidence each area demonstrates.
 
 <table>
   <tr>
-    <th align="left" width="360">Section</th>
-    <th align="left">Evidence Focus</th>
+    <th align="left" width="360">Project Area</th>
+    <th align="left">Evidence Demonstrated</th>
   </tr>
   <tr>
     <td width="360" style="white-space: nowrap;">
