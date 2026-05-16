@@ -1,39 +1,39 @@
-<svg width="1110" height="72" viewBox="0 0 1110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1110" height="72" rx="18" fill="#F8FAFC"/>
-  <rect x="0.5" y="0.5" width="1109" height="71" rx="17.5" stroke="#CBD5E1"/>
+<svg width="1056" height="72" viewBox="0 0 1056 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1056" height="72" rx="18" fill="#F8FAFC"/>
+  <rect x="0.5" y="0.5" width="1055" height="71" rx="17.5" stroke="#CBD5E1"/>
 
   <!-- Financial IAM -->
-  <rect x="14" y="12" width="150" height="48" rx="12" fill="#0F172A"/>
-  <text x="28" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+  <rect x="16" y="12" width="152" height="48" rx="12" fill="#0F172A"/>
+  <text x="32" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
     <tspan font-size="18">◆</tspan>
-    <tspan dx="6">Financial IAM</tspan>
+    <tspan dx="7">Financial IAM</tspan>
   </text>
 
   <!-- Azure Engineering -->
-  <rect x="198" y="12" width="190" height="48" rx="12" fill="#0078D4"/>
-  <text x="212" y="42" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+  <rect x="188" y="12" width="184" height="48" rx="12" fill="#0078D4"/>
+  <text x="204" y="42" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
     <tspan font-size="18">☁</tspan>
-    <tspan dx="6">Azure Engineering</tspan>
+    <tspan dx="7">Azure Engineering</tspan>
   </text>
 
   <!-- Identity Security -->
-  <rect x="422" y="12" width="182" height="48" rx="12" fill="#1E40AF"/>
-  <text x="436" y="42" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+  <rect x="392" y="12" width="174" height="48" rx="12" fill="#1E40AF"/>
+  <text x="408" y="42" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
     <tspan font-size="18">🔐</tspan>
-    <tspan dx="6">Identity Security</tspan>
+    <tspan dx="7">Identity Security</tspan>
   </text>
 
   <!-- Access Governance -->
-  <rect x="638" y="12" width="184" height="48" rx="12" fill="#047857"/>
-  <text x="652" y="42" fill="#ECFDF5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+  <rect x="586" y="12" width="190" height="48" rx="12" fill="#047857"/>
+  <text x="602" y="42" fill="#ECFDF5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
     <tspan font-size="18">⚖</tspan>
-    <tspan dx="6">Access Governance</tspan>
+    <tspan dx="7">Access Governance</tspan>
   </text>
 
   <!-- Automation & Monitoring -->
-  <rect x="856" y="12" width="238" height="48" rx="12" fill="#6D28D9"/>
-  <text x="870" y="42" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+  <rect x="796" y="12" width="244" height="48" rx="12" fill="#6D28D9"/>
+  <text x="812" y="42" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
     <tspan font-size="18">⚙</tspan>
-    <tspan dx="6">Automation &amp; Monitoring</tspan>
+    <tspan dx="7">Automation &amp; Monitoring</tspan>
   </text>
 </svg>
