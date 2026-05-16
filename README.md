@@ -1,6 +1,6 @@
 # Cloud Security and IAM Portfolio
 <p align="left">
-  <img src="assets/portfolio/iam-badge.svg" alt="Cloud Security and IAM Portfolio Focus Areas" width="940">
+  <img src="assets/portfolio/header-badges.svg" alt="Cloud Security and IAM Portfolio Focus Areas" width="940">
 </p>
 
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
