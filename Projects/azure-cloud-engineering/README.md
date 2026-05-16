@@ -20,27 +20,27 @@ The focus is on professional, workplace-aligned delivery rather than generic lab
 
 <table>
   <tr>
-    <th align="left" width="320">Project</th>
-    <th align="left">Engineering Capability Demonstrated</th>
+    <th align="left" width="460" style="background-color:#f2f4f7;">Project</th>
+    <th align="left" style="background-color:#f2f4f7;">Engineering Capability Demonstrated</th>
   </tr>
   <tr>
-    <td width="320">⚙️ <strong><a href="bicep-vm-operations-alerts">Bicep VM Alerts</a></strong></td>
-    <td>Azure Bicep deployment · VM monitoring · Action Groups · heartbeat alerts · CPU threshold alerts · operational response readiness</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">⚙️ <strong><a href="bicep-infrastructure-and-alerting">Bicep Infrastructure and Alerting</a></strong></td>
+    <td align="left">Bicep · infrastructure as code · VM monitoring alerts · Action Groups · heartbeat detection · CPU threshold alerting · operational response readiness</td>
   </tr>
   <tr>
-    <td width="320">🧱 <strong><a href="terraform-cloud-ops-governance">Terraform Governance</a></strong></td>
-    <td>Terraform IaC · Azure resource standards · naming and tagging governance · alert rule configuration · repeatable cloud operations</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🧱 <strong><a href="terraform-governance-and-standards">Terraform Governance and Standards</a></strong></td>
+    <td align="left">Terraform IaC · resource standards · naming and tagging strategy · alert rule configuration · reusable governance patterns · repeatable cloud operations</td>
   </tr>
   <tr>
-    <td width="320">📊 <strong><a href="vm-log-analytics-workbook-kql">VM Monitoring with KQL</a></strong></td>
-    <td>Azure Monitor · Log Analytics Workspace · Azure Monitor Agent · Data Collection Rules · KQL queries · Azure Workbooks · estate-level reporting</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">📊 <strong><a href="monitoring-log-analytics-and-kql">Monitoring, Log Analytics and KQL</a></strong></td>
+    <td align="left">Azure Monitor · Log Analytics · Azure Monitor Agent · Data Collection Rules · Data Collection Endpoints · KQL · Workbooks · estate-level reporting</td>
   </tr>
   <tr>
-    <td width="320">🔐 <strong><a href="emergency-access-governance-and-monitoring">Emergency Access Monitoring</a></strong></td>
-    <td>Microsoft Entra ID · break-glass governance · Conditional Access review · emergency access resilience · sign-in monitoring · PowerShell alerting logic</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🔐 <strong><a href="identity-emergency-access-governance">Identity and Emergency Access Governance</a></strong></td>
+    <td align="left">Microsoft Entra ID · emergency access governance · break-glass controls · Conditional Access review · privileged access resilience · sign-in monitoring logic</td>
   </tr>
   <tr>
-    <td width="320">🎓 <strong><a href="certification-and-lab-evidence">Certification and Labs</a></strong></td>
-    <td>AZ-104 preparation · Azure administration labs · identity, compute, storage, networking, monitoring, and governance validation</td>
+    <td align="left" width="460" nowrap style="background-color:#f2f4f7;">🎓 <strong><a href="certification-and-lab-evidence">Certification and Lab Evidence</a></strong></td>
+    <td align="left">AZ-104 preparation · administration labs · identity · compute · storage · networking · monitoring · governance validation</td>
   </tr>
 </table>
