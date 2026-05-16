@@ -6,7 +6,7 @@ This project shows experience supporting an MFA application deployment for secur
 
 The work covered user preparation, a technical authentication transition using OIDC, and post-deployment operations including user support, SOPs, documentation, and recurring issue review.
 
-![MFA Application Deployment and Operations](./images/sda-mfa-rollout-overview.png)
+![MFA Application Deployment and Operations](./assets/sda-mfa-rollout-overview.png)
 
 ## IAM Relevance
 
@@ -43,14 +43,6 @@ I supported the deployment and operational support process by:
 - Contributing to support notes, FAQs, and SOPs
 - Identifying common post-deployment issues
 
-## Evidence Pack
-
-| Evidence Item | Location |
-|---|---|
-| MFA deployment overview | `images/sda-mfa-rollout-overview.png` |
-| Rollout checklist | `templates/rollout-checklist-template.md` |
-| User support triage | `templates/user-support-triage-template.md` |
-| Post-deployment review | `templates/post-deployment-review-template.md` |
 
 ## Confidentiality
 
