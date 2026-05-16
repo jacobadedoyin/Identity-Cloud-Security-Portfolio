@@ -1,7 +1,9 @@
 # 🏦 Financial Services Access Governance Architecture
 
-<p>
-  <strong><a href="../README.md">← Back to Identity Security Architecture</a></strong>
+<p align="left">
+  📁 <a href="../../README.md"><strong>Back to Projects Index</strong></a>
+  
+  ↩️ <a href="../README.md"><strong>Back to Enterprise Security Architecture</strong></a><br>
 </p>
 
 ## Overview
