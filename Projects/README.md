@@ -1,84 +1,39 @@
 # Projects
 
-## Overview
-
-This folder contains the main project areas for the Cloud Security and IAM Portfolio.
-
-The projects are organised into three evidence areas:
-
-1. Azure cloud engineering and administration
-2. Data analytics platform access management
-3. Identity security architecture and secure operations
-
-The purpose of this structure is to show practical capability across cloud administration, access governance, secure platform management, and IAM-focused security documentation.
-
----
+This folder contains the main evidence areas for my Cloud Security and IAM Portfolio.
 
 ## Project Areas
 
-| Project Area | Purpose |
+| Area | Focus |
 | :--- | :--- |
-| **[Azure Cloud Engineering](./azure-cloud-engineering/)** | Azure administration, Microsoft Entra ID governance, emergency access review, certification-aligned labs, secure infrastructure, and operational cloud evidence |
-| **[Data Analytics Platform Management](./data-analytics-platform-management/)** | Qlik and Tableau user access administration, joiner-mover-leaver processes, licence tracking, access request handling, and platform governance |
-| **[Identity Security Architecture](./identity-security-architecture/)** | IAM architecture, secure data access design, secure file transfer operations, access control models, and governance documentation |
-
----
+| **[Azure Cloud Engineering](./azure-cloud-engineering/)** | Azure administration, cloud operations, monitoring, automation, governance, and certification-aligned labs |
+| **[Data Analytics Platform Management](./data-analytics-platform-management/)** | Qlik and Tableau access management, JML processes, licence tracking, access requests, and platform governance |
+| **[Identity Security Architecture](./identity-security-architecture/)** | IAM architecture, secure access design, secure file transfer operations, access control models, and governance documentation |
 
 ## Portfolio Focus
 
-The projects in this section are focused on demonstrating capability in:
+This section demonstrates practical capability in:
 
-- Identity and Access Management
-- Access governance
-- Microsoft Entra ID administration
-- Azure administration and security
-- Role-Based Access Control
-- Least privilege access design
+- Azure administration and cloud operations
+- Microsoft Entra ID and IAM governance
+- Role-Based Access Control and least privilege
 - Joiner, mover, and leaver processes
-- Secure platform operations
-- Data access governance
-- Operational security documentation
-
----
+- Secure platform and data access management
+- Monitoring, automation, and operational documentation
 
 ## Evidence Approach
 
-Evidence across these projects may include:
+Evidence is public-safe and may include:
 
 - Sanitised work summaries
-- Recreated screenshots
-- High-level diagrams
+- Recreated diagrams or screenshots
 - Access review templates
 - Role and permission matrices
-- Worklog entries
-- PowerShell examples
-- KQL examples
-- Process documentation
+- PowerShell, KQL, Terraform, or Bicep examples
 - Certification and lab evidence
+- Process documentation
 
-All evidence is designed to demonstrate capability without exposing confidential information.
-
----
-
-## Confidentiality Standards
-
-This portfolio does not include:
-
-- Real user names
-- Real email addresses
-- Client names
-- Company-sensitive details
-- Tenant IDs
-- Subscription IDs
-- Internal URLs
-- Ticket references
-- Production screenshots
-- Secrets, keys, or credentials
-- Confidential operational procedures
-
-Where workplace-aligned examples are included, they are redacted, recreated, or summarised.
-
----
+No confidential information, production screenshots, tenant IDs, subscription IDs, secrets, internal URLs, ticket references, or real user data are included.
 
 ## Repository Structure
 
@@ -86,24 +41,5 @@ Where workplace-aligned examples are included, they are redacted, recreated, or 
 Projects/
 ├── README.md
 ├── azure-cloud-engineering/
-│   ├── README.md
-│   ├── azure-administration-and-operations/
-│   └── certification-and-lab-evidence/
 ├── data-analytics-platform-management/
-│   ├── README.md
-│   ├── diagrams/
-│   ├── evidence/
-│   └── templates/
 └── identity-security-architecture/
-    ├── README.md
-    ├── iam-architecture-financial-data-access-control/
-    └── secure-file-transfer-platform-operations/
-```
-
----
-
-## Summary
-
-This project section demonstrates practical cloud security, IAM, and access governance capability across Azure administration, platform access management, and identity security architecture.
-
-The structure is intended to show both real-world operational experience and lab-based technical development in a clear, professional, and confidentiality-safe way.
