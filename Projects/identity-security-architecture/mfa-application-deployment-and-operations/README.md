@@ -2,56 +2,56 @@
 
 ## Overview
 
-This project shows support for an MFA rollout used to strengthen secure access to sensitive data platforms.
+This project shows experience supporting an MFA application deployment for secure data access.
 
-The focus was user setup, access continuity, issue support, and post-rollout improvement. All evidence is recreated and public-safe.
+The work covered user preparation, a technical authentication transition using OIDC, and post-deployment operations including user support, SOPs, documentation, and recurring issue review.
 
-![MFA Rollout Overview](./images/mfa-rollout-overview.png)
+![MFA Application Deployment and Operations](./images/sda-mfa-rollout-overview.png)
+
+## IAM Relevance
+
+This project demonstrates practical IAM experience across:
+
+- Strong authentication
+- MFA adoption and user readiness
+- OIDC-based authentication transition
+- Conditional Access awareness
+- Secure application access
+- Access issue triage
+- Operational documentation and SOPs
+- Post-deployment support and improvement
 
 ## Project Focus
 
-| Area | Description |
+| Area | Relevance |
 |---|---|
-| MFA rollout support | Supported users adopting MFA |
-| User readiness | Helped users understand setup and access changes |
-| Issue support | Helped with MFA setup and access issues |
-| Access continuity | Helped reduce disruption during rollout |
-| Post-rollout support | Identified recurring issues and improvements |
-
-## Support Flow
-
-![MFA Support Flow](./images/mfa-support-flow.png)
-
-## IAM and Security Relevance
-
-This project demonstrates:
-
-- Strong authentication
-- Secure access controls
-- MFA user support
-- Access issue triage
-- Post-deployment improvement
+| User preparation | Helped users understand MFA setup, timelines, and access changes |
+| Technical transition | Supported movement to OIDC-based authentication with MFA |
+| Access continuity | Helped reduce disruption during authentication changes |
+| Support operations | Assisted with MFA setup, access issues, and troubleshooting |
+| SOPs and documentation | Supported guidance, FAQs, and repeatable support processes |
+| Post-deployment review | Identified recurring issues and improvement areas |
 
 ## My Role
 
-I supported the rollout by:
+I supported the deployment and operational support process by:
 
-- Helping users complete MFA setup
-- Supporting MFA-related access issues
-- Following escalation processes
+- Helping users prepare for MFA adoption
+- Supporting MFA setup and access issues
+- Following escalation and support processes
 - Helping maintain access continuity
-- Contributing to support notes and guidance
+- Contributing to support notes, FAQs, and SOPs
+- Identifying common post-deployment issues
 
 ## Evidence Pack
 
 | Evidence Item | Location |
 |---|---|
-| MFA rollout overview | `images/mfa-rollout-overview.png` |
-| MFA support flow | `images/mfa-support-flow.png` |
+| MFA deployment overview | `images/sda-mfa-rollout-overview.png` |
 | Rollout checklist | `templates/rollout-checklist-template.md` |
 | User support triage | `templates/user-support-triage-template.md` |
-| Post-rollout review | `templates/post-deployment-review-template.md` |
+| Post-deployment review | `templates/post-deployment-review-template.md` |
 
 ## Confidentiality
 
-This project does not include real user records, authentication logs, tenant details, tickets, internal screenshots, or confidential rollout material.
+This project uses recreated and sanitised evidence only. It does not include real user records, authentication logs, tenant details, tickets, internal screenshots, or confidential rollout material.
