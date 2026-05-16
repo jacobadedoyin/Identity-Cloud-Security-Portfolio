@@ -2,69 +2,56 @@
 
 ## Overview
 
-This project demonstrates support for a **Multi-Factor Authentication (MFA) rollout** used to strengthen secure data access.
+This project shows support for an MFA rollout used to strengthen secure access to sensitive data platforms.
 
-The work focused on helping users adopt MFA, supporting access continuity during rollout, handling common setup issues, and improving post-deployment support processes.
+The focus was user setup, access continuity, issue support, and post-rollout improvement. All evidence is recreated and public-safe.
+
+![MFA Rollout Overview](./images/mfa-rollout-overview.png)
 
 ## Project Focus
 
 | Area | Description |
 |---|---|
-| MFA rollout support | Supported the introduction of MFA for secure data access |
-| User readiness | Helped users understand MFA setup steps and access changes |
-| Issue support | Assisted with MFA setup, access, and authentication issues |
-| Access continuity | Helped reduce disruption while maintaining stronger access controls |
-| Documentation | Supported guidance, checklists, and process notes |
-| Post-deployment support | Helped identify recurring issues after rollout |
+| MFA rollout support | Supported users adopting MFA |
+| User readiness | Helped users understand setup and access changes |
+| Issue support | Helped with MFA setup and access issues |
+| Access continuity | Helped reduce disruption during rollout |
+| Post-rollout support | Identified recurring issues and improvements |
+
+## Support Flow
+
+![MFA Support Flow](./images/mfa-support-flow.png)
 
 ## IAM and Security Relevance
 
-This project is relevant to **Identity and Access Management (IAM)** because MFA helps protect user accounts and reduce the risk of unauthorised access.
-
-It demonstrates experience with:
+This project demonstrates:
 
 - Strong authentication
 - Secure access controls
-- User adoption support
+- MFA user support
 - Access issue triage
-- Post-rollout support
-- Operational security improvement
+- Post-deployment improvement
 
 ## My Role
 
-I supported the MFA rollout and post-deployment support process.
+I supported the rollout by:
 
-This included:
-
-- Supporting users during MFA setup and adoption
-- Helping resolve MFA access issues
-- Following support and escalation processes
-- Contributing to user guidance and support notes
-- Helping maintain access continuity during rollout
-- Identifying common post-deployment issues
+- Helping users complete MFA setup
+- Supporting MFA-related access issues
+- Following escalation processes
+- Helping maintain access continuity
+- Contributing to support notes and guidance
 
 ## Evidence Pack
 
-This project uses recreated and sanitised evidence only. Real user records, internal screenshots, authentication logs, tenant details, tickets, and confidential rollout material are not included.
+| Evidence Item | Location |
+|---|---|
+| MFA rollout overview | `images/mfa-rollout-overview.png` |
+| MFA support flow | `images/mfa-support-flow.png` |
+| Rollout checklist | `templates/rollout-checklist-template.md` |
+| User support triage | `templates/user-support-triage-template.md` |
+| Post-rollout review | `templates/post-deployment-review-template.md` |
 
-| Evidence Item | Location | Purpose |
-|---|---|---|
-| MFA rollout process | `diagrams/mfa-rollout-process.md` | Shows the high-level rollout and support process |
-| Rollout checklist template | `templates/rollout-checklist-template.md` | Demonstrates rollout readiness checks |
-| User support triage template | `templates/user-support-triage-template.md` | Shows how common MFA issues could be categorised |
-| Post-deployment review template | `templates/post-deployment-review-template.md` | Captures recurring issues and lessons learned |
-| Evidence README | `evidence/README.md` | Explains the public-safe evidence approach |
+## Confidentiality
 
-## Repository Structure
-
-```text
-secure-data-access-mfa-rollout/
-├── README.md
-├── diagrams/
-│   └── mfa-rollout-process.md
-├── evidence/
-│   └── README.md
-└── templates/
-    ├── rollout-checklist-template.md
-    ├── user-support-triage-template.md
-    └── post-deployment-review-template.md
+This project does not include real user records, authentication logs, tenant details, tickets, internal screenshots, or confidential rollout material.
