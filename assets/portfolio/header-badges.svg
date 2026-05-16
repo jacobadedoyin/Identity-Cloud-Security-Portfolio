@@ -1,0 +1,24 @@
+<svg width="940" height="64" viewBox="0 0 940 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="940" height="64" rx="16" fill="#FFFFFF"/>
+  <rect x="0.5" y="0.5" width="939" height="63" rx="15.5" stroke="#CBD5E1"/>
+
+  <!-- Finance IAM -->
+  <rect x="14" y="12" width="150" height="40" rx="11" fill="#0F172A"/>
+  <text x="30" y="37" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">◆ Finance IAM</text>
+
+  <!-- Identity & Access -->
+  <rect x="176" y="12" width="164" height="40" rx="11" fill="#1D4ED8"/>
+  <text x="192" y="37" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">🔐 Identity &amp; Access</text>
+
+  <!-- Access Governance -->
+  <rect x="352" y="12" width="174" height="40" rx="11" fill="#047857"/>
+  <text x="368" y="37" fill="#ECFDF5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">🛡 Access Governance</text>
+
+  <!-- Secure Transfer -->
+  <rect x="538" y="12" width="154" height="40" rx="11" fill="#B45309"/>
+  <text x="554" y="37" fill="#FFFBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">⇄ Secure Transfer</text>
+
+  <!-- Monitoring & Automation -->
+  <rect x="704" y="12" width="222" height="40" rx="11" fill="#6D28D9"/>
+  <text x="720" y="37" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">⚙ Monitoring &amp; Automation</text>
+</svg>
