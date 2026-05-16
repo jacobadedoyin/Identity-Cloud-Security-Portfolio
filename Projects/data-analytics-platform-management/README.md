@@ -1,6 +1,6 @@
 # Data Analytics Platform Management
 
-<img src="assets/data_analytics_platform_overview.png" alt="Data Analytics Platform Management overview" width="100%">
+<img src="../../assets/projects/data-analytics-platform-management/data-analytics-platform-overview.png" alt="Data Analytics Platform Management overview" width="100%">
 
 ## Overview
 
@@ -40,7 +40,7 @@ Although this was not Azure-native IAM, it supported access governance by making
 
 ## JML Lifecycle Management
 
-<img src="assets/jml_lifecycle_management_overview.png" alt="Joiner mover leaver lifecycle management overview" width="100%">
+<img src="../../assets/projects/data-analytics-platform-management/jml-lifecycle-management-overview.png" alt="Joiner mover leaver lifecycle management overview" width="100%">
 
 A key part of this work was improving the management of platform access across the **joiner, mover, and leaver lifecycle**.
 
@@ -56,7 +56,7 @@ This helped reduce reliance on informal process knowledge and made platform acce
 
 ## Governance and Control Improvements
 
-<img src="assets/governance_and_control_enhancements_dashboard.png" alt="Governance and control improvements dashboard" width="100%">
+<img src="../../assets/projects/data-analytics-platform-management/governance-and-control-enhancements-dashboard.png" alt="Governance and control improvements dashboard" width="100%">
 
 The project improved control over analytics platform access by making lifecycle, review, and support activity more structured.
 
@@ -75,7 +75,7 @@ The project improved control over analytics platform access by making lifecycle,
 
 ## Access Request Workflow
 
-<img src="assets/access_request_workflow_and_benefits_overview.png" alt="Access request workflow and benefits overview" width="100%">
+<img src="../../assets/projects/data-analytics-platform-management/access-request-workflow-and-benefits-overview.png" alt="Access request workflow and benefits overview" width="100%">
 
 A repeatable access request workflow was used to make platform administration more consistent and easier to evidence.
 

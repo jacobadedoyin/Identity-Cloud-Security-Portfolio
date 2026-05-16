@@ -6,7 +6,7 @@ A public-safe cloud security and IAM portfolio demonstrating practical ownership
 
 ---
 
-![Cloud Security and IAM Portfolio Overview](assets/portfolio-overview.png)
+![Cloud Security and IAM Portfolio Overview](assets/portfolio/portfolio-overview.png)
 
 ---
 
@@ -35,7 +35,7 @@ A public-safe cloud security and IAM portfolio demonstrating practical ownership
 
 ## Core Skills
 
-![Core Skills](assets/core-skills.png)
+![Core Skills](assets/portfolio/core-skills.png)
 
 ---
 
