@@ -1,136 +1,81 @@
-# Azure Administration and Operations
+# ☁️ Azure Cloud Engineering
+
+[← Back to Cloud Security and IAM Portfolio](../../README.md)
 
 ## Overview
 
-This project area contains practical Azure administration and operational evidence.
+This section demonstrates practical Azure administration and cloud operations work across identity, access, monitoring, governance, and security control activities.
 
-The focus is on day-to-day Azure and Microsoft Entra administration tasks, operational reviews, access checks, monitoring, and evidence capture.
-
-This area is intended for real workplace-aligned Azure work rather than certification notes only.
+The focus is on workplace-aligned evidence rather than certification notes. Projects use sanitised, recreated, or lab-based examples to show how Azure environments can be reviewed, secured, monitored, and documented.
 
 ---
 
-## Purpose
+## Capability Areas
 
-The purpose of this section is to evidence practical Azure administration capability across identity, access, monitoring, and operational control activities.
-
-This may include:
-
-- Emergency access / break-glass account review
-- Conditional Access policy review
-- Sign-in log review
-- Inactive user review
-- Privileged access review
-- Azure Monitor and Log Analytics checks
-- Operational worklogs
-- Admin runbooks
-- Evidence capture using sanitised screenshots, diagrams, and templates
+| Area | Evidence Focus |
+|---|---|
+| Azure administration | Resource management, operational checks, access review, and cloud support activities |
+| Microsoft Entra ID | Identity administration, RBAC, Conditional Access awareness, and privileged access review |
+| Governance and control | Break-glass accounts, least privilege, access justification, and operational risk reduction |
+| Monitoring and logging | Azure Monitor, Log Analytics, KQL queries, alerts, and workbook-style evidence |
+| Infrastructure as Code | Terraform, Bicep, repeatable deployment patterns, and controlled cloud configuration |
+| Vulnerability management | Patch review, remediation planning, exposure reduction, and operational tracking |
+| Documentation | Runbooks, checklists, worklogs, diagrams, and audit-friendly evidence packs |
 
 ---
 
-## Areas Covered
+## Project Portfolio
 
-| Area | Description |
-| :--- | :--- |
-| Identity administration | Microsoft Entra user, role, and access checks |
-| Emergency access | Break-glass account review, configuration checks, and monitoring approach |
-| Conditional Access | Reviewing policy coverage, exclusions, and access control impact |
-| Sign-in review | Checking sign-in logs for unusual or important access activity |
-| Privileged access | Reviewing elevated access, admin roles, and access justification |
-| Inactive users | Identifying stale accounts or users requiring review |
-| Monitoring | Using Azure Monitor, Log Analytics, alerts, and KQL where relevant |
-| Operational evidence | Recording work safely through redacted or recreated evidence |
-
----
-
-## Project Areas
-
-| Project | Purpose | Status |
-| :--- | :--- | :--- |
-| **[Emergency Access Governance](./emergency-access-governance/)** | Evidence break-glass account review, exclusion checks, resilience considerations, and monitoring approach | In progress / documented |
-| `conditional-access-review` | Document Conditional Access policy review and risk-based control checks | Planned |
-| `inactive-user-review` | Evidence stale account identification and review process | Planned |
-| `privileged-access-review` | Document privileged role review and least privilege checks | Planned |
-| `sign-in-log-review` | Show how sign-in logs are reviewed for access and security assurance | Planned |
-| `azure-monitoring-and-alerting` | Evidence Azure Monitor, Log Analytics, KQL, and alerting examples | Planned |
-| `operational-worklog` | Track practical Azure administration tasks and outcomes | Planned |
-
----
-
-## Current Evidence
-
-The current active project in this section is:
-
-```text
-emergency-access-governance/
-```
-
-This project documents a workplace-aligned review of emergency access / break-glass account governance, including configuration review, identified control gaps, and recommended improvements.
+| Project | Purpose |
+|---|---|
+| [Bicep VM Operations Alerts](bicep-vm-operations-alerts) | Demonstrates Azure VM deployment, monitoring, alerting, and operational visibility using Bicep. |
+| [Terraform Cloud Ops Governance](terraform-cloud-ops-governance) | Shows repeatable Azure deployment and governance structure using Terraform. |
+| [VM Log Analytics Workbook KQL](vm-log-analytics-workbook-kql) | Demonstrates Azure monitoring, workbook-style reporting, and KQL-based operational review. |
+| [PowerShell Break-Glass Monitoring](powershell-break-glass-monitoring) | Shows scripting and monitoring logic for emergency access account oversight. |
+| [Emergency Access Governance](emergency-access-governance) | Reviews break-glass account governance, exclusions, resilience, and monitoring considerations. |
+| [Vulnerability Management and Patching](vulnerability-management-and-patching) | Demonstrates patch review, vulnerability tracking, remediation prioritisation, and control evidence. |
+| [Certification and Lab Evidence](certification-and-lab-evidence) | Stores supporting Azure learning, lab outputs, and certification-aligned evidence. |
 
 ---
 
 ## Evidence Approach
 
-This section uses sanitised or recreated evidence only.
+This section uses safe portfolio evidence only.
 
 Suitable evidence includes:
 
-- Redacted screenshots
-- High-level diagrams
-- Review templates
-- Runbooks
-- Worklog entries
+- Sanitised screenshots
+- Recreated diagrams
+- Azure lab outputs
 - KQL examples
 - PowerShell examples
-- Configuration summaries using dummy data
+- Terraform and Bicep templates
+- Review checklists
+- Operational summaries
+- Runbooks and worklogs
 
-Evidence must not include:
-
-- Real user names
-- Email addresses
-- Tenant IDs
-- Internal URLs
-- Client information
-- Ticket references
-- Production secrets
-- Real sign-in data
-- Sensitive configuration details
-- Confidential operational procedures
+Evidence must not include real user data, tenant IDs, internal URLs, production logs, secrets, client information, ticket references, or confidential configuration details.
 
 ---
 
-## Example Worklog Format
+## Skills Demonstrated
 
-| Date | Area | Activity | Evidence |
-| :--- | :--- | :--- | :--- |
-| YYYY-MM-DD | Emergency Access | Reviewed break-glass account configuration and Conditional Access exclusions | Redacted screenshot / summary |
-| YYYY-MM-DD | Conditional Access | Reviewed policy scope, exclusions, and admin impact | Policy register entry |
-| YYYY-MM-DD | Sign-in Logs | Checked sign-in activity for emergency access account | Sanitised log summary |
-| YYYY-MM-DD | Monitoring | Drafted alerting approach for rare privileged account usage | KQL example / diagram |
-
----
-
-## Repository Structure
-
-```text
-azure-administration-and-operations/
-├── README.md
-└── emergency-access-governance/
-    └── README.md
-```
-
----
-
-## Confidentiality Note
-
-This section is designed to demonstrate Azure administration and operational capability without exposing confidential organisational information.
-
-Any workplace-aligned evidence should be redacted, recreated, or summarised before being added to the portfolio.
+- Azure resource administration
+- Microsoft Entra ID administration
+- RBAC and least privilege access review
+- Conditional Access awareness
+- Emergency access governance
+- Azure Monitor and Log Analytics
+- KQL-based investigation and reporting
+- Infrastructure as Code with Terraform and Bicep
+- PowerShell automation for cloud operations
+- Vulnerability and patch management support
+- Operational documentation and evidence capture
 
 ---
 
 ## Summary
 
-This section demonstrates practical Azure administration and Microsoft Entra ID operational capability.
+This project area demonstrates practical Azure cloud engineering capability through structured, workplace-aligned evidence.
 
-It is focused on real-world aligned evidence such as emergency access review, Conditional Access considerations, sign-in monitoring, privileged access governance, and operational security documentation.
+It is designed to show how Azure environments can be administered, monitored, reviewed, and improved while keeping evidence safe, sanitised, and suitable for a public portfolio.
