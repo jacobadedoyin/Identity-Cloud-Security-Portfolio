@@ -5,23 +5,11 @@
 </p>
 
 ---
-
-
-
-## Evidence Preview
-
-### Secure File Transfer Platform Operations
-
-![Secure File Transfer Platform Operations](assets/secure-file-transfer-operations.png)
-
-### IAM Access Control Model
-
-![IAM Access Control Model](assets/iam-access-control-model.png)
-
-### MFA Application Deployment and Operations
-
-![MFA Application Deployment and Operations](assets/mfa-application-deployment-and-operations.png)
-
+| Project Area | Evidence Focus |
+| :--- | :--- |
+| 🏦 **[Financial Data Access Control Architecture](./financial-data-access-control-architecture/)** | IAM design for sensitive financial data access, role-based permissions, least privilege, and governance controls. |
+| 🔐 **[MFA Application Deployment and Operations](./mfa-application-deployment-and-operations/)** | MFA rollout support, user onboarding, access troubleshooting, application access controls, and post-deployment operations. |
+| 📁 **[Secure File Transfer Platform Operations](./secure-file-transfer-platform-operations/)** | Secure file transfer access, folder permissions, platform access review, operational checks, and public-safe documentation. |
 ---
 
 ## Key Capabilities Demonstrated
