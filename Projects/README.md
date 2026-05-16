@@ -25,12 +25,12 @@ A concise view of the main portfolio sections and the evidence each area demonst
       Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence.
     </td>
   </tr>
-  <tr>
+  <<tr>
     <td width="360" style="white-space: nowrap;">
-      🏛️ <strong><a href="identity-security-architecture">Identity&nbsp;Security&nbsp;Architecture</a></strong>
+      🏛️ <strong><a href="enterprise-security-architecture">Enterprise&nbsp;Security&nbsp;Architecture</a></strong>
     </td>
     <td>
-      IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations.
+      IAM architecture, secure access design, least privilege, Conditional Access, access governance, and control alignment.
     </td>
   </tr>
   <tr>
