@@ -40,3 +40,10 @@ The focus is on professional, workplace-aligned delivery rather than generic lab
     <td align="left">Defender for Cloud awareness · secure configuration review · Azure governance controls · policy and compliance evidence · remediation tracking · risk and exception handling · audit-ready documentation</td>
   </tr>
 </table>
+
+---
+
+## Supporting Evidence
+
+🎓 **[Certification and Lab Evidence](certification-and-lab-evidence)**  
+AZ-900 · SC-900 · AZ-104 · Azure labs
