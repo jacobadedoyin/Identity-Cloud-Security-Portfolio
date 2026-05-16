@@ -1,26 +1,28 @@
 # Cloud Security and IAM Portfolio
+
 <p align="center">
   <img src="assets/portfolio/header-badges.svg" alt="Portfolio focus areas" width="1020">
 </p>
 
+## Portfolio Overview
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
----
-## Portfolio Purpose
+This portfolio demonstrates professional experience and practical delivery across cloud engineering, identity and access management, access governance, secure data access, monitoring, automation, and cloud security operations.
 
-This portfolio demonstrates workplace-aligned capability across cloud engineering, identity and access management, access governance, secure data access, monitoring, automation, and regulated cloud security operations.
+
+
 
 ---
-## 🧭 Portfolio Navigation
+## 🧭 Navigation
 
 ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)**  
 Azure governance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
 
-🏛️ **[Identity Security Architecture](Projects/identity-security-architecture)**  
-Finance IAM · MFA · Least privilege · Secure transfer · Access governance · Documentation
+🏛️ **[Enterprise Security Architecture](Projects/enterprise-security-architecture)**  
+Identity architecture · Access control design · Conditional Access · Least privilege · Governance alignment
 
 📊 **[Data Analytics Platform Management](Projects/data-analytics-platform-management)**  
-Qlik · Tableau · JML workflows · Licence tracking · Access reviews · Reporting
+Platform administration · Access security · JML lifecycle controls · Licence and cost governance
 
 ---
 
@@ -39,7 +41,6 @@ Qlik · Tableau · JML workflows · Licence tracking · Access reviews · Report
 </p>
 
 ---
-
 
 <p align="center">
   <img src="assets/portfolio/maintain-footnote.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
