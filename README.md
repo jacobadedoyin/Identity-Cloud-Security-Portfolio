@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="assets/portfolio/technical-portfolio-overview.png" alt="Technical Portfolio Overview" width="900">
+  <img src="assets/portfolio/portfolio-projects.png" alt="Technical Portfolio Overview" width="900">
 </p>
 
 ---
