@@ -34,11 +34,11 @@ A concise view of the main portfolio sections and the evidence each area demonst
     </td>
   </tr>
   <tr>
-    <td width="360" style="white-space: nowrap;">
-      📊 <strong><a href="data-analytics-platform-management">Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</a></strong>
-    </td>
-    <td>
-      Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence.
-    </td>
-  </tr>
+  <td width="360" style="white-space: nowrap;">
+    📊 <strong><a href="data-platform-operations-and-governance">Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</a></strong>
+  </td>
+  <td>
+    Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and platform governance evidence.
+  </td>
+</tr>
 </table>
