@@ -8,15 +8,15 @@
 
 ## Project Index
 
-A concise view of the main portfolio sections and the evidence each area demonstrates.
+A concise index of the main portfolio areas and the evidence demonstrated in each section.
 
 <table>
   <tr>
-    <th align="left" width="360">Project Area</th>
+    <th align="left" width="460">Project Area</th>
     <th align="left">Evidence Demonstrated</th>
   </tr>
   <tr>
-    <td width="360" style="white-space: nowrap;">
+    <td width="460" style="white-space: nowrap;">
       ☁️ <strong><a href="azure-cloud-engineering">Azure&nbsp;Cloud&nbsp;Engineering</a></strong>
     </td>
     <td>
@@ -24,19 +24,19 @@ A concise view of the main portfolio sections and the evidence each area demonst
     </td>
   </tr>
   <tr>
-    <td width="360" style="white-space: nowrap;">
+    <td width="460" style="white-space: nowrap;">
       🏛️ <strong><a href="enterprise-security-architecture">Enterprise&nbsp;Security&nbsp;Architecture</a></strong>
     </td>
     <td>
-      IAM architecture, secure access design, least privilege, Conditional Access, access governance, and control alignment.
+      Identity architecture, secure access design, least privilege, Conditional Access, access governance, and control alignment.
     </td>
   </tr>
   <tr>
-    <td width="360" style="white-space: nowrap;">
-      📊 <strong><a href="data-platform-operations-and-governance">Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</a></strong>
+    <td width="460" style="white-space: nowrap;">
+      📊 <strong><a href="business-intelligence-platform-management">Business&nbsp;Intelligence&nbsp;Platform&nbsp;Management</a></strong>
     </td>
     <td>
-      Qlik and Tableau access management, licence tracking, JML workflows, access reviews, and platform governance evidence.
+      Qlik/Tableau administration, access security, JML lifecycle controls, licence governance, and cost management.
     </td>
   </tr>
 </table>
@@ -46,5 +46,3 @@ A concise view of the main portfolio sections and the evidence each area demonst
 <p align="center">
   <img src="../assets/portfolio/projects-overview.png" alt="Cloud Security and IAM portfolio projects overview" width="900">
 </p>
-
----
