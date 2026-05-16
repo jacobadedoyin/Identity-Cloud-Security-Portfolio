@@ -57,7 +57,7 @@ It combines workplace-aligned delivery evidence with technical projects relevant
 
 ---
 
-## Maintainer
+## Maintainance
 
 <p align="center">
   <img src="assets/portfolio/maintenance-banner.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
