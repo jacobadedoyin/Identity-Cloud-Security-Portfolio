@@ -4,12 +4,26 @@ This folder contains the main evidence areas for my Cloud Security and IAM Portf
 
 ## Project Areas
 
-| Area | Focus |
-| :--- | :--- |
-| **[Azure Cloud Engineering](./azure-cloud-engineering/)** | Azure administration, cloud operations, monitoring, automation, governance, and certification-aligned labs |
-| **[Data Analytics Platform Management](./data-analytics-platform-management/)** | Qlik and Tableau access management, JML processes, licence tracking, access requests, and platform governance |
-| **[Identity Security Architecture](./identity-security-architecture/)** | IAM architecture, secure access design, secure file transfer operations, access control models, and governance documentation |
+<table>
+  <tr>
+    <th align="left" width="360">Area</th>
+    <th align="left">Evidence Focus</th>
+  </tr>
+  <tr>
+    <td width="360" style="white-space: nowrap;">☁️ <strong><a href="Projects/azure-cloud-engineering">Azure&nbsp;Cloud&nbsp;Engineering</a></strong></td>
+    <td>Azure administration, Entra ID, RBAC, monitoring, security foundations, and cloud lab evidence</td>
+  </tr>
+  <tr>
+    <td width="360" style="white-space: nowrap;">🏛️ <strong><a href="Projects/identity-security-architecture">Identity&nbsp;Security&nbsp;Architecture</a></strong></td>
+    <td>IAM architecture, secure data access, least privilege, access governance, and secure file transfer operations</td>
+  </tr>
+  <tr>
+    <td width="360" style="white-space: nowrap;">📊 <strong><a href="Projects/data-analytics-platform-management">Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</a></strong></td>
+    <td>Qlik and Tableau access management, licence tracking, JML workflows, and access review evidence</td>
+  </tr>
+</table>
 
+---
 ## Portfolio Focus
 
 This section demonstrates practical capability in:
