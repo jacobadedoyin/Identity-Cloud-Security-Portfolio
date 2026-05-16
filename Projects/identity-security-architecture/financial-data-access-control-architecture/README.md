@@ -1,4 +1,4 @@
-# Financial Data Access Control Architecture
+# Financial Services Access Governance Architecture
 
 <p>
   <strong><a href="../README.md">← Back to Identity Security Architecture</a></strong>
