@@ -10,7 +10,7 @@
 
 ---
 
-## 🏛️ Identity Security Architecture Navigation
+## Identity Security Architecture Navigation
 
 <table>
   <tr>
