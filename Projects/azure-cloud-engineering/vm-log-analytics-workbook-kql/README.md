@@ -18,6 +18,39 @@ The aim was to collect health and performance data, query the estate using KQL, 
 
 ---
 
+<h2>Delivery Evidence</h2>
+
+<table align="left">
+  <tr>
+    <th align="left" style="background-color:#f2f4f7;">Area</th>
+    <th align="left" style="background-color:#f2f4f7;">Summary</th>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Problem</strong></td>
+    <td align="left">The VM estate needed clear monitoring, reporting, and operational visibility for availability, performance, and non-reporting machines.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Action</strong></td>
+    <td align="left">Configured monitoring data collection, built KQL queries, and created workbook evidence to support estate owner reporting and service management review.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Tools</strong></td>
+    <td align="left">Azure Monitor, Azure Monitor Agent, Data Collection Rules, Data Collection Endpoints, Log Analytics, KQL, and Azure Workbooks.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Control value</strong></td>
+    <td align="left">Improved operational visibility, supported faster investigation, highlighted VM health issues, and provided reviewable monitoring evidence for the estate owner.</td>
+  </tr>
+ <tr>
+  <td align="left" style="background-color:#f2f4f7;"><strong>Public-safe evidence</strong></td>
+  <td align="left">Estate scope, architecture flow, KQL examples, workbook reporting structure, and monitoring summaries reviewed to avoid exposing sensitive VM or organisation details.</td>
+</tr>
+</table>
+
+<br clear="left">
+
+---
+
 ## Estate Scope
 
 | Asset | Monitoring Focus |
