@@ -1,49 +1,65 @@
 # 📁 Secure File Transfer Platform Operations
-[← Back to Identity Security Architecture ](../README.md)
+
+[← Back to Identity Security Architecture](../README.md)
 
 ## Overview
 
-This project demonstrates ownership and administration of a secure file transfer platform used for controlled movement of sensitive files.
+This project demonstrates operational ownership of a secure file transfer platform used to control the movement of sensitive business files.
 
-The work focused on access management, secure transfer operations, migration support, folder hierarchy design, JML activity, and stakeholder training.
+The work focused on secure platform administration, access control, folder permissions, migration support, joiner/mover/leaver activity, stakeholder guidance, and repeatable operational processes.
 
-![Secure File Transfer Operations Overview](./assets/secure-file-transfer-operations-overview.png)
+![Secure File Transfer Operations Overview](../../../assets/identity-security-architecture/secure-file-transfer-operations-overview.png)
 
 ## Platform
 
 - MOVEit Secure Transfer
 
+## Project Scope
+
+| Area | What this demonstrates |
+|---|---|
+| Secure platform administration | Supported day-to-day operation of a managed file transfer platform |
+| Access management | Created, changed, reviewed, and removed user access based on business need |
+| Folder permission control | Supported folder hierarchy design and permission visibility |
+| Least privilege | Helped ensure users only had access to the folders and transfer areas they required |
+| JML support | Supported joiner, mover, and leaver activity to reduce stale or inappropriate access |
+| Migration support | Assisted with controlled migration activity, validation, and user readiness |
+| Stakeholder support | Guided users and stakeholders on secure transfer processes |
+| Documentation | Produced templates, checklists, and repeatable operational guidance |
+
 ## IAM and Security Skills
 
-![Secure Transfer IAM and Access Control Skills](./assets/secure-transfer-iam-access-control-skills.png)
+![Secure Transfer IAM and Access Control Skills](../../../assets/identity-security-architecture/secure-transfer-iam-access-control-skills.png)
 
 Key skills demonstrated:
 
-- Secure platform administration
-- User access management
-- Least privilege permissions
-- Secure folder hierarchy design
-- Joiner, mover, and leaver support
-- Permission visibility
-- Secure data movement
+- Secure file transfer administration
+- IAM operational support
+- Least privilege access control
+- Folder-level permission management
+- Joiner, mover, and leaver controls
+- Access request handling
+- Permission matrix design
+- Secure data movement awareness
 - Audit and traceability awareness
-- User and stakeholder training
+- Stakeholder training and support
+- Operational documentation
 
 ## Operations Workflow
 
-![Secure Transfer Access and Operations Workflow](./assets/secure-transfer-access-operations-workflow.png)
+![Secure Transfer Access and Operations Workflow](../../../assets/identity-security-architecture/secure-transfer-access-operations-workflow.png)
 
 ## Evidence Pack
 
 | Evidence | Location |
 |---|---|
-| Operations overview | `assets/secure-file-transfer-operations-overview.png` |
-| IAM and access control skills | `assets/secure-transfer-iam-access-control-skills.png` |
-| Access operations workflow | `assets/secure-transfer-access-operations-workflow.png` |
-| Access request template | `assets/secure-transfer-access-request-template.md` |
-| Migration checklist | `assets/secure-transfer-migration-checklist.md` |
-| Permission matrix template | `assets/secure-transfer-permission-matrix-template.md` |
+| Operations overview | [`secure-file-transfer-operations-overview.png`](../../../assets/identity-security-architecture/secure-file-transfer-operations-overview.png) |
+| IAM and access control skills | [`secure-transfer-iam-access-control-skills.png`](../../../assets/identity-security-architecture/secure-transfer-iam-access-control-skills.png) |
+| Access operations workflow | [`secure-transfer-access-operations-workflow.png`](../../../assets/identity-security-architecture/secure-transfer-access-operations-workflow.png) |
+| Access request template | [`secure-transfer-access-request-template.md`](../../../assets/identity-security-architecture/secure-transfer-access-request-template.md) |
+| Migration checklist | [`secure-transfer-migration-checklist.md`](../../../assets/identity-security-architecture/secure-transfer-migration-checklist.md) |
+| Permission matrix template | [`secure-transfer-permission-matrix-template.md`](../../../assets/identity-security-architecture/secure-transfer-permission-matrix-template.md) |
 
 ## Confidentiality
 
-This project uses recreated and sanitised evidence only. It does not include real platform screenshots, folder paths, file names, user records, transfer logs, IP addresses, internal URLs, or confidential operational details.
+This project uses recreated and sanitised evidence only. It does not include real platform screenshots, folder paths, file names, user records, transfer logs, IP addresses, internal URLs, credentials, or confidential operational details.
