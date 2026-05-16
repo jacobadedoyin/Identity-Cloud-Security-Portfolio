@@ -1,52 +1,30 @@
 # Cloud Security and IAM Portfolio
-<p align="left">
-  <img src="assets/portfolio/header-badges.svg" alt="Cloud Security and IAM Portfolio Focus Areas" width="940">
+<p align="center">
+  <img src="assets/portfolio/header-badges.svg" alt="Portfolio focus areas" width="1020">
 </p>
 
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
-
-
-<p align="center">
-  <strong>
-    <a href="Projects">Explore portfolio projects and evidence →</a>
-  </strong>
+---
+## 🧭 Portfolio Navigation
+<p>
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="Projects">📁 Explore Portfolio Projects →</a></strong>
 </p>
-
 <table>
   <tr>
-    <td width="33%" valign="top" align="center">
-      <h3>☁️ Azure Cloud Engineering</h3>
-      <p><strong>Cloud operations · IaC · Monitoring</strong></p>
-      <p align="center">
-        Azure governance, Entra ID integration, RBAC, policy, monitoring, KQL, automation, Terraform/Bicep, and secure cloud operations evidence.
-      </p>
-      <p>
-        <a href="Projects/azure-cloud-engineering"><strong>View Azure evidence →</strong></a>
-      </p>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🏛️ Identity Security Architecture</h3>
-      <p><strong>IAM · Least privilege · Access controls</strong></p>
-      <p align="center">
-        Financial data access control, MFA deployment operations, secure file transfer permissions, least-privilege design, access governance, and IAM documentation.
-      </p>
-      <p>
-        <a href="Projects/identity-security-architecture"><strong>View identity evidence →</strong></a>
-      </p>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>📊 Data Analytics Platform Management</h3>
-      <p><strong>Qlik · Tableau · JML workflows</strong></p>
-      <p align="center">
-        Qlik and Tableau access governance, JML workflows, licence and entitlement tracking, access reviews, reporting, and operational control evidence.
-      </p>
-      <p>
-        <a href="Projects/data-analytics-platform-management"><strong>View analytics evidence →</strong></a>
-      </p>
-    </td>
+    <td width="360">☁️ <a href="Projects/azure-cloud-engineering"><strong>Azure&nbsp;Cloud&nbsp;Engineering</strong></a></td>
+    <td>Azure governance · Entra ID · RBAC<br>KQL · Terraform · Bicep · Monitoring</td>
+  </tr>
+  <tr>
+    <td width="360">🏛️ <a href="Projects/identity-security-architecture"><strong>Identity&nbsp;Security&nbsp;Architecture</strong></a></td>
+    <td>Financial IAM · MFA · Least privilege<br>Secure transfer · Access governance · Documentation</td>
+  </tr>
+  <tr>
+    <td width="360">📊 <a href="Projects/data-analytics-platform-management"><strong>Data&nbsp;Analytics&nbsp;Platform&nbsp;Management</strong></a></td>
+    <td>Qlik · Tableau · JML workflows<br>Licence tracking · Access reviews · Reporting</td>
   </tr>
 </table>
+
 
 ---
 
