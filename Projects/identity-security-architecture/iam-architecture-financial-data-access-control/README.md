@@ -1,68 +1,62 @@
-# Secure Financial Data Access Architecture
+# Financial Data Access Control Architecture
 
 ## Overview
 
-This project is a concept architecture for securing access to sensitive financial data platforms in a regulated environment.
+This project presents a public-safe concept architecture for controlling access to sensitive financial data in a regulated cloud environment.
 
-The design focuses on identity and access management, role-based access control, Conditional Access, least privilege, auditability, and access governance.
+The design focuses on Microsoft Entra ID, MFA, Conditional Access, RBAC, least privilege, audit logging, and access governance. It demonstrates how identity controls can protect financial data platforms while supporting operational access needs.
 
-This project is included as a portfolio architecture exercise to demonstrate how identity controls can be designed around sensitive data access.
+![Financial Data Access Control Architecture](./images/architecture-diagram.png)
 
 ## Project Type
 
 Concept architecture / portfolio design exercise.
 
-This is a recreated architecture model used to demonstrate IAM, RBAC, Conditional Access, access reviews, and secure data access design. It does not include confidential organisational architecture, live tenant configuration, real user data, or internal system details.
+This is a recreated model for portfolio evidence. It does not include live tenant configuration, real users, internal systems, client data, confidential architecture, or production screenshots.
 
 ## Architecture Focus
 
-The architecture is centred around Microsoft Entra ID as the identity provider and control point for access to sensitive financial data platforms.
+The architecture uses **Microsoft Entra ID** as the central identity and access control layer for financial data platforms.
 
-The design covers:
+It covers:
 
-- Internal and external identity access
-- Strong authentication using MFA
-- Conditional Access policy enforcement
-- Group-based role assignment
-- Role-based access control
-- Least privilege access design
-- Joiner, mover, and leaver lifecycle considerations
+- Internal and external user access
+- MFA and Conditional Access
+- Group-based access assignment
+- Role-Based Access Control
+- Least privilege access
+- Joiner, mover, and leaver access lifecycle
 - Access reviews and governance
 - Audit logging and monitoring
 
-## Architecture Diagram
-
-![Secure Financial Data Access Architecture](./images/architecture-diagram.png)
-
 ## Design Objectives
 
-| Objective | Description |
+| Objective | Purpose |
 |---|---|
-| Centralise identity | Use Microsoft Entra ID as the central identity control plane |
-| Enforce strong authentication | Require MFA for access to sensitive data platforms |
-| Apply Conditional Access | Evaluate access based on signals such as user, device, location, and risk |
-| Use RBAC | Assign access through roles and groups rather than direct user permissions |
-| Support least privilege | Ensure users only receive access required for their role |
-| Support JML processes | Consider how access is created, changed, and removed across the user lifecycle |
-| Improve auditability | Ensure access activity can be logged, reviewed, and evidenced |
-| Support access reviews | Enable periodic validation of access to sensitive data platforms |
+| Centralised identity | Use Microsoft Entra ID as the main identity control point |
+| Strong authentication | Require MFA for sensitive financial data access |
+| Conditional Access | Control access using user, device, location, and risk signals |
+| RBAC | Assign access through roles and groups instead of direct permissions |
+| Least privilege | Limit users to the access required for their role |
+| JML control | Support access changes when users join, move, or leave |
+| Auditability | Log access activity for investigation and evidence |
+| Access reviews | Regularly validate who still needs access |
 
 ## Access Flow
 
 ```text
 User signs in
         ↓
-Microsoft Entra ID authenticates user
+Microsoft Entra ID verifies identity
         ↓
-Conditional Access policies evaluate request
+Conditional Access checks the request
         ↓
-MFA is enforced where required
+MFA is required where needed
         ↓
-User group membership is checked
+Group membership is checked
         ↓
-RBAC role determines access scope
+RBAC role defines access level
         ↓
-Financial data platform access is granted or denied
+Access is granted or denied
         ↓
 Activity is logged for audit and review
-```
