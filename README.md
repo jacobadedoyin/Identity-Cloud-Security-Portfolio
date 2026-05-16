@@ -61,9 +61,6 @@ This portfolio evidences capability across cloud engineering, IAM, access govern
 It combines workplace-aligned delivery evidence with technical projects relevant to Azure IAM engineering, cloud security operations, access governance, and regulated technology environments.
 
 ---
-
-## Maintainance
-
 <p align="center">
-  <img src="assets/portfolio/maintenance-banner.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
+  <img src="assets/portfolio/maintain-footnote.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
 </p>
