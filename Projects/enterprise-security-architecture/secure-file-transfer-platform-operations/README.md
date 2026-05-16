@@ -12,24 +12,47 @@ This project demonstrates operational ownership of a secure file transfer platfo
 
 The work focused on secure platform administration, access control, folder permissions, migration support, joiner/mover/leaver activity, stakeholder guidance, and repeatable operational processes.
 
+
+<h2>Delivery Evidence</h2>
+
+<table align="left">
+  <tr>
+    <th align="left" style="background-color:#f2f4f7;">Area</th>
+    <th align="left" style="background-color:#f2f4f7;">Summary</th>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Problem</strong></td>
+    <td align="left">Sensitive business files needed to be transferred through a controlled platform with appropriate access, permissions, traceability, and operational oversight.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Action</strong></td>
+    <td align="left">Supported secure platform administration, access changes, folder permissions, migration activity, JML processes, stakeholder guidance, and repeatable operational documentation.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Tools</strong></td>
+    <td align="left">MOVEit Secure Transfer, access request workflows, permission matrices, migration checklists, IAM processes, and operational support documentation.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Control value</strong></td>
+    <td align="left">Improved access oversight, supported least privilege, reduced stale access risk, strengthened secure file movement, and improved audit traceability.</td>
+  </tr>
+  <tr>
+    <td align="left" style="background-color:#f2f4f7;"><strong>Public-safe evidence</strong></td>
+    <td align="left">Operations overview, IAM skills diagram, access workflow, request template, migration checklist, and permission matrix template with sensitive platform details removed.</td>
+  </tr>
+</table>
+
+<br clear="left">
+
+---
+
+
 ![Secure File Transfer Operations Overview](../../../assets/identity-security-architecture/secure-file-transfer-operations-overview.png)
 
 ## Platform
 
 - MOVEit Secure Transfer
 
-## Project Scope
-
-| Area | What this demonstrates |
-|---|---|
-| Secure platform administration | Supported day-to-day operation of a managed file transfer platform |
-| Access management | Created, changed, reviewed, and removed user access based on business need |
-| Folder permission control | Supported folder hierarchy design and permission visibility |
-| Least privilege | Helped ensure users only had access to the folders and transfer areas they required |
-| JML support | Supported joiner, mover, and leaver activity to reduce stale or inappropriate access |
-| Migration support | Assisted with controlled migration activity, validation, and user readiness |
-| Stakeholder support | Guided users and stakeholders on secure transfer processes |
-| Documentation | Produced templates, checklists, and repeatable operational guidance |
 
 ## IAM and Security Skills
 
