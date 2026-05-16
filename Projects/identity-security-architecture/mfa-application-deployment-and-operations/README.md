@@ -1,4 +1,4 @@
-# MFA Application Deployment and Operations
+# 🔐 MFA Application Deployment and Operations
 
 ## Overview
 
