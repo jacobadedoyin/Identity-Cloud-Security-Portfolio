@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/projects-overview.png" alt="Cloud Security and IAM portfolio projects overview" width="900">
+  <img src="../assets/portfolio/projects-overview.png" alt="Cloud Security and IAM portfolio projects overview" width="900">
 </p>
 
 ## Project Areas

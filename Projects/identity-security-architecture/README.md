@@ -1,7 +1,7 @@
 # 🏛️ Identity Security Architecture
 
 <p align="center">
-  <img src="../../assets/identity-security-architecture-overview.png" alt="Identity Security Architecture overview" width="900">
+  <img src="../../assets/projects/identity-security-architecture/identity-security-architecture-overview.png" alt="Identity Security Architecture overview" width="900">
 </p>
 
 ---
