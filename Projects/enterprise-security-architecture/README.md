@@ -1,7 +1,10 @@
 # 🏛️ Enterprise Security Architecture
 
 <p>
-  <strong><a href="../README.md">← Back to Portfolio Overview</a></strong>
+  <strong><a href="../../README.md">↩️ Back to Main Portfolio</a></strong>
+  &nbsp;·&nbsp;
+  
+  <strong><a href="../README.md">📁 Back to Projects Index</a></strong>
 </p>
 
 ---
