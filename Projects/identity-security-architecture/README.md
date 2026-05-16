@@ -1,16 +1,20 @@
-# 🏛️ Identity Security Architecture
+# 🏛️ Enterprise Security Architecture
 
 <p>
   <strong><a href="../README.md">← Back to Portfolio Overview</a></strong>
 </p>
 
-<p align="center">
-  <img src="../../assets/identity-security-architecture/identity-security-architecture-overview.png" alt="Identity Security Architecture overview" width="900">
-</p>
+---
+
+## Overview
+
+Enterprise security architecture projects focused on secure access design, regulated data access, application authentication, platform permissions, vulnerability risk management, and operational governance.
+
+This section demonstrates security control ownership across business-critical systems, including access design, user authentication, secure platform operations, Windows Server vulnerability management, and service-owner evidence.
 
 ---
 
-## Identity Security Architecture Navigation
+## Enterprise Security Architecture Navigation
 
 <table>
   <tr>
@@ -19,14 +23,21 @@
   </tr>
   <tr>
     <td width="420" nowrap>🏦 <strong><a href="./financial-data-access-control-architecture/">Financial&nbsp;Data&nbsp;Access&nbsp;Control&nbsp;Architecture</a></strong></td>
-    <td>IAM design for sensitive financial data access, role-based permissions, least privilege, and governance controls.</td>
+    <td>Architecture for sensitive financial data access, role-based permissions, least privilege, segregation of duties, and governance controls.</td>
   </tr>
   <tr>
     <td width="420" nowrap>🔐 <strong><a href="./mfa-application-deployment-and-operations/">MFA&nbsp;Application&nbsp;Deployment&nbsp;and&nbsp;Operations</a></strong></td>
-    <td>MFA deployment operations, user onboarding, access troubleshooting, application access controls, and post-deployment support.</td>
+    <td>Strong authentication rollout, application access control, user readiness, access issue triage, and post-deployment support.</td>
   </tr>
   <tr>
     <td width="420" nowrap>📁 <strong><a href="./secure-file-transfer-platform-operations/">Secure&nbsp;File&nbsp;Transfer&nbsp;Platform&nbsp;Operations</a></strong></td>
-    <td>Secure file transfer access, folder permissions, platform access review, operational checks, and public-safe documentation.</td>
+    <td>Secure platform access, folder permission governance, access reviews, operational checks, and service-owner documentation.</td>
+  </tr>
+  <tr>
+    <td width="420" nowrap>🛡️ <strong><a href="./enterprise-vulnerability-risk-management/">Enterprise&nbsp;Vulnerability&nbsp;Risk&nbsp;Management</a></strong></td>
+    <td>Windows Server vulnerability management, remediation ownership, risk prioritisation, patch tracking, and evidence documentation in a secure environment.</td>
   </tr>
 </table>
+
+---
+
