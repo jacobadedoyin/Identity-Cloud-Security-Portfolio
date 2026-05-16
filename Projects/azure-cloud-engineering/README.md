@@ -1,7 +1,9 @@
 # ☁️ Azure Cloud Engineering
 
-[← Back to Cloud Security and IAM Portfolio](../../README.md)
-[← Back to Portfolio Projects](../README.md)  
+<p align="left">
+  ↩️ <a href="../../README.md"><strong>Back to Cloud Security and IAM Portfolio</strong></a><br>
+  📁 <a href="../README.md"><strong>Back to Projects Index</strong></a>
+</p>
 
 ## Azure Engineering Scope
 
