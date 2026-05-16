@@ -1,46 +1,29 @@
 # Financial Data Access Control Architecture
 
+<p>
+  <strong><a href="../README.md">← Back to Identity Security Architecture</a></strong>
+</p>
+
 ## Overview
 
 This project presents a public-safe concept architecture for controlling access to sensitive financial data in a regulated cloud environment.
 
-The design focuses on Microsoft Entra ID, MFA, Conditional Access, RBAC, least privilege, audit logging, and access governance. It demonstrates how identity controls can protect financial data platforms while supporting operational access needs.
+The design uses Microsoft Entra ID as the central identity layer, with MFA, Conditional Access, RBAC, least privilege, access reviews, and audit logging supporting secure access governance.
 
 ![Financial Data Access Control Architecture](./images/architecture-diagram.png)
 
-## Project Type
-
-Concept architecture / portfolio design exercise.
-
-This is a recreated model for portfolio evidence. It does not include live tenant configuration, real users, internal systems, client data, confidential architecture, or production screenshots.
+---
 
 ## Architecture Focus
 
-The architecture uses **Microsoft Entra ID** as the central identity and access control layer for financial data platforms.
+- Centralised identity control with Microsoft Entra ID
+- MFA and Conditional Access for sensitive access
+- Group-based RBAC instead of direct permissions
+- Least-privilege access for financial data platforms
+- Joiner, mover, and leaver access lifecycle controls
+- Access reviews, audit logging, and monitoring
 
-It covers:
-
-- Internal and external user access
-- MFA and Conditional Access
-- Group-based access assignment
-- Role-Based Access Control
-- Least privilege access
-- Joiner, mover, and leaver access lifecycle
-- Access reviews and governance
-- Audit logging and monitoring
-
-## Design Objectives
-
-| Objective | Purpose |
-|---|---|
-| Centralised identity | Use Microsoft Entra ID as the main identity control point |
-| Strong authentication | Require MFA for sensitive financial data access |
-| Conditional Access | Control access using user, device, location, and risk signals |
-| RBAC | Assign access through roles and groups instead of direct permissions |
-| Least privilege | Limit users to the access required for their role |
-| JML control | Support access changes when users join, move, or leave |
-| Auditability | Log access activity for investigation and evidence |
-| Access reviews | Regularly validate who still needs access |
+---
 
 ## Access Flow
 
@@ -49,7 +32,7 @@ User signs in
         ↓
 Microsoft Entra ID verifies identity
         ↓
-Conditional Access checks the request
+Conditional Access evaluates the request
         ↓
 MFA is required where needed
         ↓
