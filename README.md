@@ -30,9 +30,7 @@ A public-safe technical portfolio showcasing hands-on experience across Azure ad
 
 ---
 
-## Core Skills
-
-![Core Skills](assets/portfolio/core-skills.png)
+![Core Skills](assets/portfolio/technical-skills.png)
 
 ---
 
