@@ -1,9 +1,9 @@
 # 🔐 MFA Application Deployment and Operations
 
 <p align="left">
-  📁 <a href="../../README.md"><strong>Projects Index</strong></a>
+  📁 <a href="../../README.md"><strong>Back to Projects Index</strong></a>
   
-  ↩️ <a href="../README.md"><strong>Back to Enterprise Security Architecture</strong></a><br>
+  ↩️ <a href="../README.md"><strong>Back to Enterprise Security Architecture Index</strong></a><br>
 </p>
 
 ## Overview
