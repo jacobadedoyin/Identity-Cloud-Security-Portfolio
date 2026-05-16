@@ -16,7 +16,7 @@ The focus is on professional, workplace-aligned delivery rather than generic lab
 </p>
 
 ---
-## Cloud Engineering Project Index
+## Azure Engineering Index
 
 <table>
   <tr>
