@@ -36,7 +36,3 @@ This project demonstrates practical IAM experience across:
 ## My Role
 
 I supported the deployment and operational process by helping users prepare for MFA adoption, assisting with setup and access issues, following escalation routes, contributing to support notes, and identifying recurring post-deployment issues.
-
-## Confidentiality
-
-This project uses recreated and sanitised evidence only. It does not include real user records, authentication logs, tenant details, tickets, internal screenshots, or confidential rollout material.
