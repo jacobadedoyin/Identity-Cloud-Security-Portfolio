@@ -1,7 +1,7 @@
 # 🏛️ Enterprise Security Architecture
 
 <p align="left">
-  ↩️ <a href="../../README.md"><strong>Back to Cloud Security and IAM Portfolio</strong></a><br>
+  ↩️ <a href="../../README.md"><strong>Back to Portfolio Home</strong></a><br>
   📁 <a href="../README.md"><strong>Back to Projects Index</strong></a>
 </p>
 
