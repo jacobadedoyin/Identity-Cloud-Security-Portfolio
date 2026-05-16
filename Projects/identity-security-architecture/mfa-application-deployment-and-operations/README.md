@@ -2,24 +2,25 @@
 
 ## Overview
 
-This project shows experience supporting an MFA application deployment for secure data access.
+This project shows experience supporting an MFA application deployment used to strengthen secure access to sensitive data platforms.
 
-The work covered user preparation, a technical authentication transition using OIDC, and post-deployment operations including user support, SOPs, documentation, and recurring issue review.
+The work covered user preparation, OIDC-based authentication transition support, access continuity, issue triage, SOPs, documentation, and post-deployment improvement.
 
 ![MFA Application Deployment and Operations](./assets/sda-mfa-rollout-overview.png)
 
-## IAM Relevance
+## IAM Skills Demonstrated
+
+![IAM Skills](./assets/sda-iam-skills.png)
 
 This project demonstrates practical IAM experience across:
 
-- Strong authentication
-- MFA adoption and user readiness
-- OIDC-based authentication transition
+- Strong authentication and MFA adoption
+- OIDC-based authentication transition support
 - Conditional Access awareness
 - Secure application access
-- Access issue triage
-- Operational documentation and SOPs
-- Post-deployment support and improvement
+- Access issue triage and escalation
+- SOPs, user guidance, and operational documentation
+- Post-deployment review and improvement
 
 ## Project Focus
 
@@ -34,15 +35,7 @@ This project demonstrates practical IAM experience across:
 
 ## My Role
 
-I supported the deployment and operational support process by:
-
-- Helping users prepare for MFA adoption
-- Supporting MFA setup and access issues
-- Following escalation and support processes
-- Helping maintain access continuity
-- Contributing to support notes, FAQs, and SOPs
-- Identifying common post-deployment issues
-
+I supported the deployment and operational process by helping users prepare for MFA adoption, assisting with setup and access issues, following escalation routes, contributing to support notes, and identifying recurring post-deployment issues.
 
 ## Confidentiality
 
