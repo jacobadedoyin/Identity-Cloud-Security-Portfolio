@@ -1,4 +1,4 @@
-# 📊 BI Platform Operations and Governance
+# 📊 Business Intelligence Platform Management
 
 <p align="left">
   ↩️ <a href="../../README.md"><strong>Back to Portfolio Home</strong></a><br>
@@ -9,11 +9,11 @@
 
 ## Overview
 
-This project demonstrates practical **data analytics platform management** across **Qlik** and **Tableau**, with a focus on user access, licence management, access reviews, support processes, and operational documentation.
+This project demonstrates practical **business intelligence platform operations and governance** across **Qlik** and **Tableau**, with a focus on user access, licence management, access reviews, support processes, and operational documentation.
 
-The work improved how analytics platform administration was managed by making access processes more consistent, repeatable, supportable, and easier to evidence.
+The work improved how BI platform administration was managed by making access processes more consistent, repeatable, supportable, and easier to evidence.
 
-This project is relevant to **Identity and Access Management (IAM)** because it involved managing user access lifecycle activity across application-level analytics platforms, including joiners, movers, leavers, licence clean-up, and access review preparation.
+This project is relevant to **Identity and Access Management (IAM)** because it involved managing application-level access lifecycle activity across BI platforms, including joiners, movers, leavers, licence clean-up, access review preparation, and stakeholder validation.
 
 <img src="../../assets/data-analytics-platform-management/data-analytics-platform-overview.png" alt="Data Analytics Platform Management overview" width="100%">
 
