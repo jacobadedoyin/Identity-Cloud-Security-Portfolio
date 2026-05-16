@@ -1,6 +1,12 @@
-# 📊 NHS Trust VM Estate Monitoring with Log Analytics, KQL and Azure Workbooks
+# 📊  Azure VM Monitoring and Reporting with Log Analytics, KQL and Workbooks
 
-[← Back to Cloud Engineering Projects](../README.md)
+<p>
+  <strong><a href="../../README.md">📁 Back to Projects Index</a></strong>
+  <br>
+  <strong><a href="../README.md">↩️ Back to Azure Cloud Engineering Index</a></strong>
+</p>
+
+---
 
 ## Overview
 
