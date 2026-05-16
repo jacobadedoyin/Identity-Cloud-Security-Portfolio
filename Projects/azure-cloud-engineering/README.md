@@ -17,39 +17,30 @@ The focus is on professional, workplace-aligned delivery rather than generic lab
 
 ---
 ## Azure Engineering Project Index
+
 <table>
   <tr>
-    <th align="left" width="360">Project</th>
-    <th align="left">Capability Demonstrated</th>
+    <th align="left" width="320">Project</th>
+    <th align="left">Engineering Capability Demonstrated</th>
   </tr>
-
   <tr>
-    <td width="360">⚙️ <strong><a href="bicep-vm-operations-alerts">Bicep VM Operations Alerts</a></strong></td>
-    <td>Infrastructure as code · Azure VM operations · Monitoring and alerting</td>
+    <td width="320">⚙️ <strong><a href="bicep-vm-operations-alerts">Bicep VM Alerts</a></strong></td>
+    <td>Azure Bicep deployment · VM monitoring · Action Groups · heartbeat alerts · CPU threshold alerts · operational response readiness</td>
   </tr>
-
   <tr>
-    <td width="360">🧱 <strong><a href="terraform-cloud-ops-governance">Terraform Cloud Ops Governance</a></strong></td>
-    <td>Terraform deployment standards · Naming, tagging, and Azure governance</td>
+    <td width="320">🧱 <strong><a href="terraform-cloud-ops-governance">Terraform Governance</a></strong></td>
+    <td>Terraform IaC · Azure resource standards · naming and tagging governance · alert rule configuration · repeatable cloud operations</td>
   </tr>
-
   <tr>
-    <td width="360">📊 <strong><a href="vm-log-analytics-workbook-kql">VM Log Analytics Workbook KQL</a></strong></td>
-    <td>Azure Monitor · Log Analytics · KQL reporting and service visibility</td>
+    <td width="320">📊 <strong><a href="vm-log-analytics-workbook-kql">VM Monitoring with KQL</a></strong></td>
+    <td>Azure Monitor · Log Analytics Workspace · Azure Monitor Agent · Data Collection Rules · KQL queries · Azure Workbooks · estate-level reporting</td>
   </tr>
-
   <tr>
-    <td width="360">🛡️ <strong><a href="powershell-break-glass-monitoring">PowerShell Break-Glass Monitoring</a></strong></td>
-    <td>PowerShell automation · Emergency access monitoring · Alert logic</td>
+    <td width="320">🔐 <strong><a href="emergency-access-governance-and-monitoring">Emergency Access Monitoring</a></strong></td>
+    <td>Microsoft Entra ID · break-glass governance · Conditional Access review · emergency access resilience · sign-in monitoring · PowerShell alerting logic</td>
   </tr>
-
   <tr>
-    <td width="360">🔐 <strong><a href="emergency-access-governance">Emergency Access Governance</a></strong></td>
-    <td>Break-glass accounts · Conditional Access · Privileged access resilience</td>
-  </tr>
-
-  <tr>
-    <td width="360">🎓 <strong><a href="certification-and-lab-evidence">Certification and Lab Evidence</a></strong></td>
-    <td>Azure labs · AZ-104 practice · Technical validation evidence</td>
+    <td width="320">🎓 <strong><a href="certification-and-lab-evidence">Certification and Labs</a></strong></td>
+    <td>AZ-104 preparation · Azure administration labs · identity, compute, storage, networking, monitoring, and governance validation</td>
   </tr>
 </table>
