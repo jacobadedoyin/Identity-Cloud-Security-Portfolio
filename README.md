@@ -66,6 +66,8 @@ It combines workplace-aligned experience with hands-on technical learning releva
 
 ## Maintainer
 
-Maintained by **Jacob Adedoyin**.
+## Maintainer
 
-This repository is maintained as a professional portfolio for cloud security, IAM, access governance, and secure operations evidence.
+<p align="center">
+  <img src="assets/portfolio/maintenance-banner.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
+</p>
