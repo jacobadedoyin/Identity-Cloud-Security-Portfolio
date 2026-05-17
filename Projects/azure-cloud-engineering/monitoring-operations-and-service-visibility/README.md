@@ -1,115 +1,81 @@
-# 📊  Azure VM Monitoring and Reporting with Log Analytics, KQL and Workbooks
+# 📊 Monitoring, Operations and Service Visibility
 
-<p>
-  <strong><a href="../../README.md">📁 Back to Projects Index</a></strong>
-  <br>
-  <strong><a href="../README.md">↩️ Back to Azure Cloud Engineering Index</a></strong>
+<p align="left">
+  ↩️ <a href="../README.md"><strong>Back to Azure Cloud Engineering Index</strong></a><br>
+  📁 <a href="../../README.md"><strong>Back to Projects Index</strong></a>
 </p>
 
----
+## Project Scope
 
-## Overview
+This project demonstrates Azure monitoring and operational visibility capability using **Azure Monitor, Log Analytics, Azure Monitor Agent, Data Collection Rules, KQL, Workbooks, alerting, and VM estate reporting**.
 
-Azure operations project focused on reporting and monitoring a small **NHS Trust VM estate**, including a **SQL Server virtual machine** and two supporting Azure virtual machines.
+The focus is on showing how Azure resources can be monitored, reviewed, investigated, and reported on in a controlled operational environment.
 
-The project used **Azure Monitor**, **Azure Monitor Agent**, **Data Collection Rules**, **Data Collection Endpoints**, **Log Analytics**, **KQL**, and **Azure Workbooks** to provide the estate owner with clear operational visibility.
+## Skills Demonstrated
 
-The aim was to collect health and performance data, query the estate using KQL, and present useful monitoring evidence in a workbook suitable for review, support, and service management.
-
----
-
-<h2>Delivery Evidence</h2>
-
-<table align="left">
-  <tr>
-    <th align="left" style="background-color:#f2f4f7;">Area</th>
-    <th align="left" style="background-color:#f2f4f7;">Summary</th>
-  </tr>
-  <tr>
-    <td align="left" style="background-color:#f2f4f7;"><strong>Problem</strong></td>
-    <td align="left">The VM estate needed clear monitoring, reporting, and operational visibility for availability, performance, and non-reporting machines.</td>
-  </tr>
-  <tr>
-    <td align="left" style="background-color:#f2f4f7;"><strong>Action</strong></td>
-    <td align="left">Configured monitoring data collection, built KQL queries, and created workbook evidence to support estate owner reporting and service management review.</td>
-  </tr>
-  <tr>
-    <td align="left" style="background-color:#f2f4f7;"><strong>Tools</strong></td>
-    <td align="left">Azure Monitor, Azure Monitor Agent, Data Collection Rules, Data Collection Endpoints, Log Analytics, KQL, and Azure Workbooks.</td>
-  </tr>
-  <tr>
-    <td align="left" style="background-color:#f2f4f7;"><strong>Control value</strong></td>
-    <td align="left">Improved operational visibility, supported faster investigation, highlighted VM health issues, and provided reviewable monitoring evidence for the estate owner.</td>
-  </tr>
- <tr>
-  <td align="left" style="background-color:#f2f4f7;"><strong>Public-safe evidence</strong></td>
-  <td align="left">Estate scope, architecture flow, KQL examples, workbook reporting structure, and monitoring summaries reviewed to avoid exposing sensitive VM or organisation details.</td>
-</tr>
-</table>
-
-<br clear="left">
-
----
-
-## Estate Scope
-
-| Asset | Monitoring Focus |
+| Skill Area | Evidence Demonstrated |
 |---|---|
-| SQL Server VM | Availability, heartbeat, CPU, memory, disk, and performance indicators |
-| VM 1 | Health, agent reporting, CPU, memory, and disk visibility |
-| VM 2 | Health, agent reporting, CPU, memory, and disk visibility |
-| Estate Owner View | Simple reporting view across the monitored VM estate |
+| **Azure Monitor** | Use of Azure Monitor to support resource visibility, performance review, alerting, and operational awareness. |
+| **Log Analytics** | Collection and querying of operational data to support troubleshooting, reporting, and service review. |
+| **Azure Monitor Agent** | Understanding of modern Azure monitoring agent configuration and data collection from virtual machines. |
+| **Data Collection Rules** | Use of Data Collection Rules to control what monitoring data is collected and where it is sent. |
+| **KQL Querying** | Use of Kusto Query Language to investigate VM heartbeat, performance data, logs, and operational signals. |
+| **Workbooks** | Creation or use of Azure Workbooks to present monitoring data in a clear and reviewable format. |
+| **VM Estate Visibility** | Monitoring of virtual machines to understand health, availability, heartbeat status, and performance trends. |
+| **Operational Troubleshooting** | Use of monitoring evidence to identify issues, review system behaviour, and support technical investigation. |
+| **Service Reporting** | Presentation of monitoring outputs in a way that supports service review, documentation, and operational decision-making. |
 
----
+## Engineering Capability Summary
 
-## What This Project Shows
+This project shows the ability to support Azure environments after deployment by making resources visible, measurable, and easier to manage.
 
-| Area | Evidence |
+It demonstrates that cloud operations are not limited to building resources. They also require monitoring, log collection, alerting, performance review, and clear reporting so that services can be supported properly.
+
+The evidence supports capability in **Azure operations, monitoring configuration, log analysis, KQL, VM estate reporting, troubleshooting, and service visibility**.
+
+## Example Evidence Areas
+
+| Evidence Area | What It Shows |
 |---|---|
-| VM estate monitoring | Health and performance reporting across multiple Azure VMs |
-| SQL VM monitoring | Visibility of infrastructure indicators supporting a database workload |
-| Azure Monitor Agent | Modern monitoring collection from Azure virtual machines |
-| Data Collection Rules | Controlled collection of VM performance and log data |
-| Data Collection Endpoints | Structured data ingestion path for monitoring data |
-| Log Analytics | Central workspace for estate-level monitoring data |
-| KQL | Query-based investigation and reporting across VMs |
-| Azure Workbook | Dashboard view for the estate owner and operations review |
+| **Azure Monitor Configuration** | Ability to use Azure monitoring services to track resource health, performance, and operational signals. |
+| **Log Analytics Workspace** | Understanding of centralised log collection and investigation across Azure resources. |
+| **Azure Monitor Agent Setup** | Awareness of how virtual machines send monitoring data into Azure. |
+| **Data Collection Rules** | Ability to define and manage monitoring data collection in a structured way. |
+| **KQL Queries** | Practical ability to query logs, heartbeat data, performance counters, and operational events. |
+| **Azure Workbooks** | Ability to turn raw monitoring data into visual dashboards and service review evidence. |
+| **VM Heartbeat Monitoring** | Ability to check whether virtual machines are reporting correctly and identify missing or unhealthy machines. |
+| **Performance Review Evidence** | Ability to review CPU, memory, disk, and availability signals for operational insight. |
 
----
+## Professional Relevance
 
-## Architecture Flow
+This project is relevant to Azure Administrator, Cloud Engineer, Infrastructure Engineer, Cloud Operations, IAM Engineer, and Cloud Security support roles.
 
-```text
-SQL Server VM + Supporting Azure VMs
-        ↓
-Azure Monitor Agent
-        ↓
-Data Collection Rule / Data Collection Endpoint
-        ↓
-Log Analytics Workspace
-        ↓
-KQL Queries
-        ↓
-Azure Workbook Dashboard
-        ↓
-Estate Owner Reporting and Operational Review
+It demonstrates practical ability to support cloud environments where services must be:
 
-## Monitoring Areas
+- monitored
+- visible
+- measurable
+- investigated
+- documented
+- reported on
+- supported through operational evidence
 
-- VM heartbeat and agent reporting status
-- SQL VM infrastructure health
-- CPU, memory, and disk visibility
-- Performance trends and non-reporting machines
-- Estate-level operational reporting
+## Tools and Technologies
 
----
+| Area | Tools / Concepts |
+|---|---|
+| **Cloud Platform** | Microsoft Azure |
+| **Monitoring** | Azure Monitor, alerts, metrics, resource health |
+| **Log Management** | Log Analytics Workspace |
+| **Agent-Based Monitoring** | Azure Monitor Agent |
+| **Data Collection** | Data Collection Rules |
+| **Query Language** | Kusto Query Language, KQL |
+| **Dashboards and Reporting** | Azure Workbooks, VM estate reporting |
+| **Operations** | Heartbeat monitoring, performance review, troubleshooting, service visibility |
+| **Documentation** | GitHub, markdown documentation, structured operational evidence |
 
-## Example KQL Queries
+## Outcome
 
-### VM Heartbeat Status
+The outcome of this project is a structured evidence area showing how Azure resources can be monitored, reviewed, and supported through operational data.
 
-```kql
-Heartbeat
-| summarize LastHeartbeat=max(TimeGenerated) by Computer
-| extend Status = iff(LastHeartbeat > ago(15m), "Healthy", "Check Required")
-| order by LastHeartbeat desc
+It supports the wider portfolio by demonstrating practical Azure operations skills alongside engineering, governance, identity, and security-focused work.
