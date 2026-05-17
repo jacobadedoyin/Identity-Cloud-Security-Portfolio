@@ -21,7 +21,7 @@ Azure governance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
 🏛️ **[Enterprise Security Architecture](Projects/enterprise-security-architecture)**  
 Identity architecture · Access control design · Conditional Access · Least privilege · Governance alignment
 
-📊 **[Business Intelligence Platform Management](Projects/business-intelligence-platform-operations-and-governance)**  
+📊 **[Business Intelligence Platform Management](https://github.com/jacobadedoyin/Cloud-Security-and-IAM-Portfolio/tree/main/Projects/business-intelligence-platform-management)**  
 Qlik/Tableau administration · Access security · JML lifecycle controls · Licence and cost governance
 
 ---
