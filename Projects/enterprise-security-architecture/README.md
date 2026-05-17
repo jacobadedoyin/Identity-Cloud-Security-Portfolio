@@ -9,36 +9,54 @@
 
 ## Overview
 
-Enterprise security architecture projects focused on secure access design, regulated data access, application authentication, platform permissions, vulnerability risk management, and operational governance.
+This section demonstrates security architecture and governance work across business-critical enterprise platforms, with a focus on secure access design, authentication controls, regulated data access, platform permissions, vulnerability risk management, and operational evidence.
 
-This section demonstrates security control ownership across business-critical systems, including access design, user authentication, secure platform operations, Windows Server vulnerability management, and service-owner evidence.
+The projects show practical ownership of security controls across identity, application access, file transfer services, financial data platforms, Windows Server vulnerability remediation, and audit-ready documentation.
 
 ---
-
-## Enterprise Security Architecture Navigation
+## 🧭 Enterprise Security Architecture Navigation
 
 <table>
   <tr>
-    <th align="left" width="420">Domain</th>
+    <th align="left" width="310">Domain</th>
     <th align="left">Evidence Focus</th>
   </tr>
+
   <tr>
-    <td width="420" nowrap>🏦 <strong><a href="./financial-data-access-control-architecture/">Financial&nbsp;Data&nbsp;Access&nbsp;Control&nbsp;Architecture</a></strong></td>
-    <td>Architecture for sensitive financial data access, role-based permissions, least privilege, segregation of duties, and governance controls.</td>
+    <td width="310" valign="top">
+      🏦 <strong><a href="./financial-data-access-control-architecture/">Financial Data Access</a></strong>
+    </td>
+    <td valign="top">
+      Financial services access governance for sensitive reporting platforms, including RBAC, privileged access, least privilege, approvals, recertification, and audit-ready evidence.
+    </td>
   </tr>
+
   <tr>
-    <td width="420" nowrap>🔐 <strong><a href="./mfa-application-deployment-and-operations/">MFA&nbsp;Application&nbsp;Deployment&nbsp;and&nbsp;Operations</a></strong></td>
-    <td>Strong authentication rollout, application access control, user readiness, access issue triage, and post-deployment support.</td>
+    <td width="310" valign="top">
+      🔐 <strong><a href="./mfa-application-deployment-and-operations/">MFA Application Operations</a></strong>
+    </td>
+    <td valign="top">
+      MFA deployment and authentication support, including onboarding, enrolment validation, sign-in triage, exception handling, stakeholder communication, and support documentation.
+    </td>
   </tr>
+
   <tr>
-    <td width="420" nowrap>📁 <strong><a href="./secure-file-transfer-platform-operations/">Secure&nbsp;File&nbsp;Transfer&nbsp;Platform&nbsp;Operations</a></strong></td>
-    <td>Secure platform access, folder permission governance, access reviews, operational checks, and service-owner documentation.</td>
+    <td width="310" valign="top">
+      📁 <strong><a href="./secure-file-transfer-platform-operations/">Secure File Transfer Operations</a></strong>
+    </td>
+    <td valign="top">
+      Secure file transfer governance, including folder permissions, access reviews, operational checks, service-owner coordination, configuration evidence, and support documentation.
+    </td>
   </tr>
+
   <tr>
-    <td width="420" nowrap>🛡️ <strong><a href="./enterprise-vulnerability-risk-management/">Enterprise&nbsp;Vulnerability&nbsp;Risk&nbsp;Management</a></strong></td>
-    <td>Windows Server vulnerability management, remediation ownership, risk prioritisation, patch tracking, and evidence documentation in a secure environment.</td>
+    <td width="310" valign="top">
+      🛡️ <strong><a href="./enterprise-vulnerability-risk-management/">Vulnerability Risk Management</a></strong>
+    </td>
+    <td valign="top">
+      Vulnerability remediation across Windows Server environments, including Qualys review, patch coordination, risk prioritisation, asset validation, exception awareness, and evidence capture.
+    </td>
   </tr>
 </table>
 
 ---
-
